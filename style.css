@@ -1,0 +1,17 @@
+/*
+ Theme Name:   VivaTours
+ Theme URI:    http://viajesvivatours.com
+ Description:  Travelicious child theme
+ Author:       EsBrillante
+ Author URI:   https://esbrillante.mx
+ Template:     travelicious
+ Version:      1.0.0
+ Tags:         one-column, right-sidebar, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  travelicious-child
+*/
+
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+
+@import url(less/main.css);
