@@ -60,7 +60,7 @@ echo boldthemes_preloader_html(); ?>
 						<div class="btHorizontalMenuTrigger">&nbsp;<?php echo boldthemes_get_icon_html( array( "icon" => "fa_f0c9", "url" => "#" ) ); ?></div>
 					<?php } ?>
 					<div class="headerviva">
-		         <span class="cambio">Tipo de cambio del día 1 USD = 19 MXN</span> <span class="cambio"> 1 Euro = 30 mxn</span> <span> Agencia de Viajes</span> <span > <strong>¡Inicia tu sesión ahora!</strong></span> <a href="">Acceso agentes</a>
+		         <span class="cambio">Tipo de cambio a 07 MAY 2019 para depositar en MXN</span> <span class="cambio"> USD 19.25</span> <span class="cambio"> EURO 21.33</span> <span > <strong>¡Inicia tu sesión ahora!</strong></span> <a href="">Acceso agentes</a>
 		     </div>
 					<div class="logo">
 					

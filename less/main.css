@@ -499,22 +499,21 @@ a,
   font-size: 15px;
   font-family: 'Montserrat';
   text-align: center;
-  margin-top: 30px;
-  margin-left: 125px;
+  margin-bottom: 35px;
+  margin-left: -1208px;
+  margin-right: -1207px;
+  background-color: #00a4af;
+  padding: 10px;
 }
 .headerviva a,
 .headerviva span {
   margin-left: 20px;
 }
 .headerviva span {
-  color: #9b9b9b;
+  color: #f9b000;
 }
 .headerviva span.cambio {
   color: white!important;
-  background-color: #00a4af!important;
-  border-radius: 10px 10px!important;
-  border: 0px solid #000000!important;
-  padding: 10px;
   font-weight: bold;
 }
 .headerviva a {
@@ -530,7 +529,10 @@ a,
 .menuPort {
   font-family: "Montserrat";
   color: #00a4af;
-  font-size: 12px!important;
+}
+.btMenuHorizontal .menuPort > nav > ul > li > a {
+  margin-left: -10px;
+  margin-right: -10px !important;
 }
 .btSearch {
   color: black;
@@ -559,4 +561,21 @@ a,
 .btTourIcon {
   margin-left: 50px;
   margin-right: 50px;
+}
+.ewd-feup-submit {
+  background-color: #f9b000!important;
+  color: white!important;
+  font-weight: bold!important;
+}
+.registrar {
+  margin-left: 10px;
+  background-color: #e50075;
+  padding: 20px 105px;
+  margin-top: 20px;
+  color: white!important;
+  font-weight: bold;
+}
+.feup-pure-form-aligned .feup-pure-control-group {
+  /* float: left; */
+  /* padding: 10px 246px;*/
 }
