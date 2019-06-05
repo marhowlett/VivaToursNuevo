@@ -582,3 +582,6 @@ a,
 #btTourReviewsTab {
   display: none;
 }
+.btTourSingleItemStandard .btSingleTourInfo {
+ background: #00a4af!important;   
+}
