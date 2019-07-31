@@ -625,18 +625,72 @@ p, a, .bt_bb_headline_subheadline, .bt_bb_button_text {
 .contact  s:after {
     background-image: linear-gradient(to right,#e50075 0%,#f9b000 100%)!important;
 }
-
+.log {
+       margin-bottom: 20px!important;
+}
 .col {
         position: relative;
-    left: 300px;
-    max-width: 300px;
+    float: right;
+      
     .datos {
         color: white;
+    }
+}
+.agencia {
+    margin-top: 20px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    &.nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .bloque {
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        &.align-self-end {
+            align-self: flex-end;
+        }
+        .icon {
+                margin-right: 21px;
+        }
+        .icon2 {
+                margin-left: 20px;
+        }
+    }
+    .bloque2 {
+        width: 25%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        &.align-self-end {
+            align-self: flex-end;
+        }
+    }
+     .bloque3 {
+        width: 33%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+        &.align-self-end {
+            align-self: flex-end;
+        }
     }
 }
 .col2 .bt_bb_row .bt_bb_column .bt_bb_column_content {
    
      color: white;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    .col {
+        width: 50%;
+    }
+    .col2 {
+        width: 33%;
+    }
 }
 .col2 h3 {
     font-size: 2.5em!important;
@@ -850,4 +904,8 @@ input:not([type='checkbox']):not([type='radio']):not([type='submit']), textarea,
 body.page-id-4178 #ewd-feup-login {
     position: relative;
     left: 378px;
+}
+.ewd-feup-text-input {
+    height: 2.5rem!important;
+    line-height: 1rem!important;
 }

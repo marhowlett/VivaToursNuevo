@@ -472,16 +472,68 @@ a,
 .contact s:after {
   background-image: linear-gradient(to right, #e50075 0%, #f9b000 100%) !important;
 }
+.log {
+  margin-bottom: 20px!important;
+}
 .col {
   position: relative;
-  left: 300px;
-  max-width: 300px;
+  float: right;
 }
 .col .datos {
   color: white;
 }
+.agencia {
+  margin-top: 20px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex.nowrap {
+  flex-wrap: nowrap;
+}
+.flex .bloque {
+  width: 100%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.flex .bloque.align-self-end {
+  align-self: flex-end;
+}
+.flex .bloque .icon {
+  margin-right: 21px;
+}
+.flex .bloque .icon2 {
+  margin-left: 20px;
+}
+.flex .bloque2 {
+  width: 25%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.flex .bloque2.align-self-end {
+  align-self: flex-end;
+}
+.flex .bloque3 {
+  width: 33%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.flex .bloque3.align-self-end {
+  align-self: flex-end;
+}
 .col2 .bt_bb_row .bt_bb_column .bt_bb_column_content {
   color: white;
+}
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid .col {
+  width: 50%;
+}
+.grid .col2 {
+  width: 33%;
 }
 .col2 h3 {
   font-size: 2.5em!important;
@@ -661,4 +713,8 @@ select,
 body.page-id-4178 #ewd-feup-login {
   position: relative;
   left: 378px;
+}
+.ewd-feup-text-input {
+  height: 2.5rem!important;
+  line-height: 1rem!important;
 }
