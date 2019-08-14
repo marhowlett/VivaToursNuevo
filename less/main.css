@@ -627,7 +627,7 @@ a,
   color: white!important;
   font-weight: bold;
   position: relative;
-      top: -70px;
+  top: -71px;
   left: 246px;
 }
 .registrar2 {
@@ -639,7 +639,7 @@ a,
   font-weight: bold;
   position: relative;
   top: 223px;
-  left: 486px;
+  left: 105px;
 }
 .pasajero {
   margin-left: 10px;
@@ -650,12 +650,12 @@ a,
   font-weight: bold;
   position: relative;
   top: 179px;
-  left: 28px;
+  left: -379px;
 }
 .con2 {
   position: relative;
   top: 192px;
-  left: 280px;
+  left: -112px;
   color: white!important;
   text-decoration: underline;
 }
@@ -683,41 +683,11 @@ p.poli a {
 .btTourSingleItemStandard .btSingleTourInfo {
   background: #00a4af!important;
 }
-body.page-id-4121 input:not([type='checkbox']):not([type='radio']):not([type='submit']),
-textarea,
-select,
-.fancy-select .trigger {
+input:not([type='checkbox']):not([type='radio']):not([type='submit']) {
   -webkit-transition: all 300ms ease;
   -moz-transition: all 300ms ease;
   transition: all 300ms ease;
   width: 100%!important;
-}
-body.page-id-4121 input:not([type='checkbox']):not([type='radio']):not([type='submit']),
-textarea,
-select,
-.fancy-select .trigger {
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  transition: all 300ms ease;
-  width: 100%!important;
-}
-body.page-id-4178 input:not([type='checkbox']):not([type='radio']):not([type='submit']),
-textarea,
-select,
-.fancy-select .trigger {
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  transition: all 300ms ease;
-  width: 200%!important;
-}
-body.home input:not([type='checkbox']):not([type='radio']):not([type='submit']),
-textarea,
-select,
-.fancy-select .trigger {
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  transition: all 300ms ease;
-  width: 200%!important;
 }
 .feup-pure-form-aligned .feup-pure-control-group label {
   float: initial;
@@ -727,11 +697,8 @@ select,
   width: 13em;
   padding: 10px;
 }
-#ewd-feup-register-input-4 {
-  width: 220%!important;
-}
-#ewd-feup-register-input-12 {
-  width: 120%!important;
+.feup-pure-form textarea {
+  width: 100%;
 }
 #ewd-feup-password-result {
   /* margin-top: 30px; */
@@ -739,11 +706,14 @@ select,
 }
 body.page-id-4178 #ewd-feup-login {
   position: relative;
-  left: 378px;
+  left: 280px;
 }
 .ewd-feup-text-input {
   height: 2.5rem!important;
   line-height: 1rem!important;
+}
+.ewd-feup-register-field-instructions {
+  width: 100%;
 }
 .feup-pure-form-aligned .feup-pure-control-group {
   margin-bottom: 0;
@@ -757,7 +727,212 @@ body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group {
   float: left;
   width: 100%;
 }
-body.page-id-4178 input.feup-pure-button {
+body.home .feup-pure-form-aligned .feup-pure-control-group {
+  float: left;
+  width: 100%;
+}
+body.page-id-4178 .feup-pure-form-aligned .feup-pure-control-group {
+  float: left;
+  width: 50%;
+}
+body.page-id-4178 .ewd-feup-submit .ewd-feup-login-submit {
   position: relative;
-  left: 96px!important;
+  left: 96px;
+}
+body.page-id-4178 .feup-pure-button {
+  width: 35%!important;
+  position: relative;
+  left: 190px;
+}
+body.home .feup-pure-button {
+  width: 45%!important;
+}
+.logo2 {
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+}
+.btWithSidebar .btContentHolder .btSidebar {
+  width: 25%;
+  height: 46%;
+  padding: 0;
+}
+#app {
+  /* -------------
+Sidebar
+----------------*/
+  /* -------------
+Sidebar Nav
+----------------*/
+  /* -------------
+Chev elements
+----------------*/
+  /* -------------
+Nav-Flyout
+----------------*/
+  /* -------------
+Hover
+----------------*/
+}
+#app a {
+  text-decoration: none;
+  transition: all 0.6s ease;
+}
+#app a:hover {
+  transition: all 0.6s ease;
+}
+#app .app {
+  height: 100vh;
+}
+#app .sidebar {
+  position: absolute;
+  width: 18.7em;
+  height: 100%;
+  overflow: hidden;
+  background-color: #0ba4a8;
+  -webkit-transform: translateZ(0);
+  visibility: visible;
+  -webkit-backface-visibility: hidden;
+}
+#app .sidebar header {
+  background-color: #09f;
+  width: 100%;
+  display: block;
+  padding: 0.75em	1em;
+}
+#app .dos {
+  background-color: #0b8288;
+}
+#app .sidebar-nav {
+  position: fixed;
+  background-color: #0ba4a8;
+  height: 100%;
+  font-weight: 400;
+  font-size: 1.2em;
+  overflow: auto;
+  padding-bottom: 6em;
+  z-index: 9;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+}
+#app .sidebar-nav ul {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0;
+  /* -------------
+Sidebar: icons
+----------------*/
+}
+#app .sidebar-nav ul li {
+  margin-left: 0;
+  padding-left: 0;
+  display: inline-block;
+  width: 100%;
+  border-top: 2px solid #7fcbcd;
+}
+#app .sidebar-nav ul li span {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  padding: 0px 1em;
+  position: relative;
+  display: block;
+  margin-bottom: -20px;
+  margin-top: -7px;
+}
+#app .sidebar-nav ul a {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 0.75em;
+  padding: 1.05em	1em;
+  position: relative;
+  display: block;
+}
+#app .sidebar-nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+  transition: all 0.6s ease;
+  padding: 1.05em	1em;
+}
+#app .sidebar-nav ul i {
+  font-size: 1.8em;
+  padding-right: 0.5em;
+  width: 9em;
+  display: inline;
+  vertical-align: middle;
+}
+#app > ul > li > a:after {
+  content: '\f125';
+  font-family: ionicons;
+  font-size: 0.5em;
+  width: 10px;
+  color: #fff;
+  position: absolute;
+  right: 0.75em;
+  top: 45%;
+}
+#app .nav-flyout {
+  position: absolute;
+  background-color: #080D11;
+  z-index: 9;
+  left: 2.5em;
+  top: 0;
+  transform: translateX(100%);
+  transition: all 0.5s ease;
+}
+#app .nav-flyout a:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+#app ul > li:hover .nav-flyout {
+  transform: translateX(0);
+  transition: all 0.5s ease;
+}
+aside {
+  background-color: #0ba4a8;
+  padding: 10px;
+}
+aside #aviso p.tit {
+  text-align: center;
+  color: white;
+}
+aside #aviso p.editar {
+  text-align: center;
+}
+aside #aviso p.editar a {
+  color: white;
+  text-decoration: underline;
+}
+aside .btSearch {
+  position: relative;
+  left: 15px;
+  background: white;
+}
+body.page-id-5288 #contacto {
+  margin-top: 80px;
+}
+body.page-id-5288 #CF5d531c10ba4c1_1-row-1 .col-sm-12 {
+  margin-top: -92px;
+}
+body.page-id-5288 .col2 form {
+  width: 100%;
+}
+body.page-id-5288 .bt_bb_text {
+  margin-top: 80px;
+}
+body.page-id-5288 .btn {
+  background-color: #e50075;
+  color: white!important;
+  font-weight: bold;
+}
+body.page-id-4121 .feup-pure-control-group img {
+  position: relative;
+  left: -250px;
+}
+body.page-id-4121 label {
+  color: white;
+}
+body.page-id-4121 span#ewd-feup-password-result {
+  color: white;
 }
