@@ -1,32 +1,14 @@
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Regular.woff2') format('woff2'), url('fonts/Montserrat-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Simple Boy';
-  src: url('fonts/SimpleBoy.woff2') format('woff2'), url('fonts/SimpleBoy.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Bebas Neue';
-  src: url('fonts/BebasNeueRegular.woff2') format('woff2'), url('fonts/BebasNeueRegular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Barlow';
+  src: url('Barlow-ExtraBold.woff2') format('woff2'), url('Barlow-ExtraBold.woff') format('woff');
+  font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Light.woff2') format('woff2'), url('fonts/Montserrat-Light.woff') format('woff');
-  font-weight: 300;
+  src: url('Montserrat-Bold.woff2') format('woff2'), url('Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
-}
-@font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'), url('fonts/Montserrat-SemiBoldItalic.woff') format('woff');
-  font-weight: 600;
-  font-style: italic;
 }
 @font-face {
   font-family: 'Bebas Neue';
@@ -36,219 +18,450 @@
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('fonts/Montserrat-ThinItalic.woff2') format('woff2'), url('fonts/Montserrat-ThinItalic.woff') format('woff');
+  src: url('Montserrat-Regular.woff2') format('woff2'), url('Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-ExtraBoldItalic.woff2') format('woff2'), url('Barlow-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-SemiBold.woff2') format('woff2'), url('BarlowCondensed-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-Thin.woff2') format('woff2'), url('MontserratAlternates-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Light.woff2') format('woff2'), url('Barlow-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-Thin.woff2') format('woff2'), url('BarlowSemiCondensed-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-ThinItalic.woff2') format('woff2'), url('Barlow-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-Bold.woff2') format('woff2'), url('MontserratAlternates-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-ThinItalic.woff2') format('woff2'), url('BarlowCondensed-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-Black.woff2') format('woff2'), url('BarlowSemiCondensed-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-SemiBold.woff2') format('woff2'), url('Montserrat-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-MediumItalic.woff2') format('woff2'), url('BarlowSemiCondensed-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Thin.woff2') format('woff2'), url('Barlow-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Black.woff2') format('woff2'), url('Montserrat-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-ExtraBoldItalic.woff2') format('woff2'), url('BarlowCondensed-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-Bold.woff2') format('woff2'), url('BarlowSemiCondensed-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-Regular.woff2') format('woff2'), url('BarlowCondensed-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-SemiBoldItalic.woff2') format('woff2'), url('Barlow-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-SemiBold.woff2') format('woff2'), url('MontserratAlternates-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-Medium.woff2') format('woff2'), url('BarlowSemiCondensed-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Regular.woff2') format('woff2'), url('Barlow-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-LightItalic.woff2') format('woff2'), url('Barlow-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-ExtraBold.woff2') format('woff2'), url('BarlowSemiCondensed-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-BoldItalic.woff2') format('woff2'), url('BarlowSemiCondensed-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-Thin.woff2') format('woff2'), url('BarlowCondensed-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Medium.woff2') format('woff2'), url('Barlow-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Italic.woff2') format('woff2'), url('Barlow-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-SemiBoldItalic.woff2') format('woff2'), url('BarlowSemiCondensed-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-MediumItalic.woff2') format('woff2'), url('BarlowCondensed-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-ExtraBold.woff2') format('woff2'), url('MontserratAlternates-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed ExLight';
+  src: url('BarlowSemiCondensed-ExtraLight.woff2') format('woff2'), url('BarlowSemiCondensed-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Bold.woff2') format('woff2'), url('Montserrat-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-BoldItalic.woff2') format('woff2'), url('BarlowCondensed-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Regular.woff2') format('woff2'), url('Montserrat-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Thin.woff2') format('woff2'), url('Montserrat-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-ExtraLightItalic.woff2') format('woff2'), url('BarlowCondensed-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-BlackItalic.woff2') format('woff2'), url('BarlowSemiCondensed-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-Light.woff2') format('woff2'), url('MontserratAlternates-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-LightItalic.woff2') format('woff2'), url('BarlowSemiCondensed-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-ExtraLightItalic.woff2') format('woff2'), url('Barlow-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Medium.woff2') format('woff2'), url('Montserrat-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-MediumItalic.woff2') format('woff2'), url('Barlow-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-ExtraLight.woff2') format('woff2'), url('BarlowCondensed-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-SemiBold.woff2') format('woff2'), url('Barlow-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed ExLight';
+  src: url('BarlowSemiCondensed-ExtraLightItalic.woff2') format('woff2'), url('BarlowSemiCondensed-ExtraLightItalic.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-Regular.woff2') format('woff2'), url('BarlowSemiCondensed-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-Medium.woff2') format('woff2'), url('BarlowCondensed-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('BebasNeue-Regular.woff2') format('woff2'), url('BebasNeue-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-ExtraBoldItalic.woff2') format('woff2'), url('BarlowSemiCondensed-ExtraBoldItalic.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-ExtraLight.woff2') format('woff2'), url('Montserrat-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Alternates ExLight';
+  src: url('MontserratAlternates-ExtraLight.woff2') format('woff2'), url('MontserratAlternates-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-Light.woff2') format('woff2'), url('BarlowCondensed-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Black.woff2') format('woff2'), url('Barlow-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-Italic.woff2') format('woff2'), url('BarlowSemiCondensed-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat Alternates Black';
+  src: url('MontserratAlternates-Black.woff2') format('woff2'), url('MontserratAlternates-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-Regular.woff2') format('woff2'), url('MontserratAlternates-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-BlackItalic.woff2') format('woff2'), url('Barlow-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-ExtraBold.woff2') format('woff2'), url('Montserrat-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-LightItalic.woff2') format('woff2'), url('BarlowCondensed-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-ExtraLight.woff2') format('woff2'), url('Barlow-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-ThinItalic.woff2') format('woff2'), url('BarlowSemiCondensed-ThinItalic.woff') format('woff');
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url('fonts/Montserrat-Bold.woff2') format('woff2'), url('fonts/Montserrat-Bold.woff') format('woff');
+  src: url('Montserrat-Light.woff2') format('woff2'), url('Montserrat-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-Light.woff2') format('woff2'), url('BarlowSemiCondensed-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-Bold.woff2') format('woff2'), url('Barlow-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
-  font-family: 'Bebas Neue';
-  src: url('fonts/BebasNeueBold.woff2') format('woff2'), url('fonts/BebasNeueBold.woff') format('woff');
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-SemiBoldItalic.woff2') format('woff2'), url('BarlowCondensed-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-Bold.woff2') format('woff2'), url('BarlowCondensed-Bold.woff') format('woff');
   font-weight: bold;
   font-style: normal;
 }
-body.home h2 {
-  font-family: 'Bebas Neue';
-}
-body.home h2 span {
-  font-family: 'Simple Boy';
-  letter-spacing: normal;
-  font-weight: normal;
-}
-body.home h2 b {
-  font-family: 'Bebas Neue' !important;
-  letter-spacing: normal;
-}
-body.home .rosa strong {
-  color: #e50075!important;
-  display: block;
-}
-body.home .rosa b {
-  position: relative;
-  font-size: 50px;
-  left: -36px;
-}
-body.home .rosa .bt_bb_headline_subheadline {
-  color: #7d7d7d;
-}
-body.home .rosa2 {
-  position: relative;
-  left: 25px;
-}
-body.home .rosa2 strong {
-  color: #e50075!important;
-  display: block;
-}
-body.home .rosa2 b {
-  position: relative;
-  font-size: 50px;
-  left: -38px;
-}
-body.home .rosa2 .bt_bb_headline_subheadline {
-  color: #7d7d7d;
-}
-body.home .rosa3 b {
-  color: #e50075!important;
-  display: block;
-}
-body.home .rosa3 strong {
-  font-weight: normal!important;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 40px;
-  color: white!important;
-}
-body.home .estimado b {
-  position: relative;
-  font-size: 50px;
-  right: 20px;
-}
-body.home .amarillo strong {
-  color: #f9b000!important;
-  position: relative;
-  top: -85px;
-}
-body.home .amarillo .bt_bb_headline_subheadline {
-  color: #7d7d7d;
-}
-body.home .acerca_viva {
-  margin-top: 80px;
-  margin-bottom: -80px;
-}
-body.home .avion2 {
-  position: relative;
-  top: 67px;
-  left: -135px;
-}
-body.home .avion3 {
-  position: relative;
-  left: -59px;
-  top: 130px;
-  margin-top: -117px;
-}
-body.home .estimado {
-  margin-top: 75px;
-}
-body.home .vi_alineamiento {
-  position: relative;
-  top: -80px;
-}
-body.home .azul strong {
-  color: #00a4af!important;
-  display: block;
-}
-body.home .azul b {
-  font-size: 50px;
-  position: relative;
-  left: 32px;
-}
-body.home .avion {
-  position: relative;
-  left: 175px;
-  top: 129px;
-  margin-top: -90px;
-}
-/**ACERCA**/
-body.page-id-3924 .btBreadCrumbs {
-  display: none;
-}
-body.page-id-3924 h1 span {
-  font-family: 'Simple Boy' !important;
-  letter-spacing: normal;
-  font-weight: normal!important;
-}
-body.page-id-3924 strong.somos {
-  font-family: 'Bebas Neue' !important;
-  letter-spacing: normal;
-  font-weight: normal!important;
-  font-size: 25px;
-}
-body.page-id-3924 .contamos p {
-  color: #313131;
+@font-face {
+  font-family: 'Barlow';
+  src: url('Barlow-BoldItalic.woff2') format('woff2'), url('Barlow-BoldItalic.woff') format('woff');
   font-weight: bold;
+  font-style: italic;
 }
-body.page-id-3924 h2 {
-  font-family: 'Bebas Neue';
-}
-body.page-id-3924 h2 span {
-  font-family: 'Simple Boy';
-  letter-spacing: normal;
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-Italic.woff2') format('woff2'), url('BarlowCondensed-Italic.woff') format('woff');
   font-weight: normal;
+  font-style: italic;
 }
-body.page-id-3924 h2 b {
-  font-family: 'Bebas Neue' !important;
-  letter-spacing: normal;
-}
-body.page-id-3924 .rosa strong {
-  color: #e50075!important;
-  display: block;
-}
-body.page-id-3924 .rosa b {
-  position: relative;
-  font-size: 50px;
-}
-body.page-id-3924 .rosa .bt_bb_headline_subheadline {
-  color: #7d7d7d;
-  text-align: justify;
-  max-width: 500px;
+@font-face {
+  font-family: 'Montserrat Alternates';
+  src: url('MontserratAlternates-Medium.woff2') format('woff2'), url('MontserratAlternates-Medium.woff') format('woff');
   font-weight: 500;
+  font-style: normal;
 }
-body.page-id-3924 .amarillo strong {
-  color: #f9b000!important;
-  position: relative;
-  display: block;
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('BarlowSemiCondensed-SemiBold.woff2') format('woff2'), url('BarlowSemiCondensed-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
 }
-body.page-id-3924 .amarillo .bt_bb_headline_subheadline {
-  color: #7d7d7d;
-  font-weight: 500;
-  text-align: justify;
-  max-width: 500px;
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-Black.woff2') format('woff2'), url('BarlowCondensed-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
 }
-body.page-id-3924 .amarillo b {
-  position: relative;
-  font-size: 50px;
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-BlackItalic.woff2') format('woff2'), url('BarlowCondensed-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
 }
-body.page-id-3924 .azul strong {
-  color: #00a4af!important;
+@font-face {
+  font-family: 'Barlow Condensed';
+  src: url('BarlowCondensed-ExtraBold.woff2') format('woff2'), url('BarlowCondensed-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
 }
-body.page-id-3924 .avion {
-  position: relative;
-  left: 40px;
-  top: -11px;
-}
-body.page-id-3924 #valores {
-  background: linear-gradient(135deg, #f5f5f5 100%, #ffffff 0%) !important;
-}
-.colum1 h5 {
-  text-align: center;
-  font-family: 'Bebas Neue' !important;
-  letter-spacing: normal;
-  font-weight: normal;
-}
-.colum1 .bt_bb_headline_subheadline {
-  text-align: justify;
-}
-.colum2 .bt_bb_headline_subheadline {
-  margin-bottom: 120px;
-}
-.colum3 .bt_bb_headline_subheadline {
-  margin-bottom: 47px;
-}
-#slider .bt_bb_headline_subheadline {
-  font-family: 'Bebas Neue' !important;
-  letter-spacing: normal;
-  font-weight: normal;
+h2 {
+  font-family: 'Montserrat Alternates';
 }
 p,
 a,
 .bt_bb_headline_subheadline,
 .bt_bb_button_text {
-  font-family: 'Montserrat';
+  font-family: 'Barlow' !important;
 }
 .acerca {
   max-width: 500px;
@@ -334,47 +547,38 @@ a,
   background: #e50075!important;
 }
 .headerviva {
-  font-size: 20px;
-  font-family: 'Bebas Neue' !important;
+  font-size: 15px;
+  font-family: 'Montserrat';
   text-align: center;
   margin-bottom: 35px;
   margin-left: -1208px;
   margin-right: -1207px;
-  background-color: #f9b000;
+  background-color: #00a4af;
   padding: 10px;
 }
 .headerviva a,
 .headerviva span {
   margin-left: 20px;
-  font-family: 'Bebas Neue' !important;
 }
 .headerviva span {
-  color: #e50075;
+  color: #f9b000;
 }
 .headerviva span.cambio {
   color: white!important;
   font-weight: bold;
 }
-.headerviva span img {
-  position: relative;
-  top: 6px;
-  right: 5px;
-}
 .headerviva a {
   color: white!important;
-  background-color: #00a4af!important;
+  background-color: #f9b000!important;
   border-radius: 10px 10px!important;
   border: 0px solid #000000!important;
   padding: 5px;
-}
-.headerviva a:hover {
-  background-color: #e50075!important;
 }
 .btLogoArea .logo img {
   margin-top: -30px;
 }
 .menuPort {
-  font-family: 'Bebas Neue' !important;
+  font-family: "Montserrat";
   color: #00a4af;
 }
 .btMenuHorizontal .menuPort > nav > ul > li > a {
@@ -417,18 +621,18 @@ a,
 .registrar {
   margin-left: 10px;
   background-color: #e50075;
-  padding: 15px 60px;
+  padding: 19px 60px;
   margin-top: 20px;
   color: white!important;
   font-weight: bold;
   position: relative;
-  top: -105px;
-  float: right;
+  top: -71px;
+  left: 246px;
 }
 .registrar2 {
   margin-left: 10px;
   background-color: #e50075;
-  padding: 13px 60px;
+  padding: 19px 60px;
   margin-top: 20px;
   color: white!important;
   font-weight: bold;
@@ -456,19 +660,13 @@ a,
 }
 p.olvidar a {
   position: relative;
-  top: -28px;
+  top: -46px;
   color: white!important;
   text-decoration: underline;
 }
 p.poli a {
   position: relative;
-  top: -88px;
-  color: white!important;
-}
-p.poli2 a {
-  position: relative;
-  top: -70px;
-  left: 169px;
+  top: -46px;
   color: white!important;
 }
 .ewd-feup-login-submit {
@@ -714,6 +912,11 @@ aside .btSearch {
   position: relative;
   left: 15px;
   background: white;
+}
+.btLightSkin .btBox .btSearchToursWidget .tour_search,
+.btDarkSkin .btLightSkin .btBox .btSearchToursWidget .tour_search,
+.btLightSkin .btDarkSkin .btLightSkin .btBox .btSearchToursWidget .tour_search {
+  background: none !important;
 }
 body.page-id-5288 #contacto {
   margin-top: 80px;
