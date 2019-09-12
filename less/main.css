@@ -316,6 +316,7 @@
   src: url('Montserrat-ExtraLight.woff2') format('woff2'), url('Montserrat-ExtraLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
+<<<<<<< HEAD
 }
 @font-face {
   font-family: 'Montserrat Alternates ExLight';
@@ -324,6 +325,16 @@
   font-style: normal;
 }
 @font-face {
+=======
+}
+@font-face {
+  font-family: 'Montserrat Alternates ExLight';
+  src: url('MontserratAlternates-ExtraLight.woff2') format('woff2'), url('MontserratAlternates-ExtraLight.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+>>>>>>> parent of f4ea75f... .
   font-family: 'Barlow Condensed';
   src: url('BarlowCondensed-Light.woff2') format('woff2'), url('BarlowCondensed-Light.woff') format('woff');
   font-weight: 300;
