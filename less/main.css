@@ -225,20 +225,64 @@ body.page-id-3924 .avion {
 body.page-id-3924 #valores {
   background: linear-gradient(135deg, #f5f5f5 100%, #ffffff 0%) !important;
 }
-.colum1 h5 {
+/**TIPS**/
+body.page-id-4036 .btBreadCrumbs {
+  display: none;
+}
+body.page-id-4036 h1 span {
+  font-family: 'Simple Boy' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+}
+body.page-id-4036 strong.somos {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  font-size: 25px;
+}
+body.page-id-4036 .colum1 h5 {
   text-align: center;
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
   font-weight: normal;
 }
-.colum1 .bt_bb_headline_subheadline {
+body.page-id-4036 .colum1 .bt_bb_headline_subheadline {
   text-align: justify;
 }
-.colum2 .bt_bb_headline_subheadline {
+body.page-id-4036 .colum2 .bt_bb_headline_subheadline {
   margin-bottom: 120px;
 }
-.colum3 .bt_bb_headline_subheadline {
+body.page-id-4036 .colum3 .bt_bb_headline_subheadline {
   margin-bottom: 47px;
+}
+body.page-id-4036 .rosa strong {
+  font-family: 'Simple Boy' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  color: #e50075!important;
+  display: block;
+}
+body.page-id-4036 .rosa b {
+  position: relative;
+  font-size: 50px;
+}
+body.page-id-4036 .rosa .bt_bb_headline_subheadline {
+  color: #313131;
+  font-weight: 500;
+}
+body.page-id-4036 .avion {
+  position: relative;
+  left: 175px;
+  top: 129px;
+  margin-top: -90px;
+}
+body.page-id-4036 .btnag h5 span {
+  font-weight: 500;
+}
+body.page-id-4036 .btnag a {
+  background-color: #00a4af!important;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
 }
 #slider .bt_bb_headline_subheadline {
   font-family: 'Bebas Neue' !important;
@@ -463,7 +507,13 @@ p.olvidar a {
 }
 p.poli a {
   position: relative;
-  top: -46px;
+  top: -88px;
+  color: white!important;
+}
+p.poli2 a {
+  position: relative;
+  top: -70px;
+  left: 169px;
   color: white!important;
 }
 .ewd-feup-login-submit {
