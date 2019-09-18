@@ -284,6 +284,112 @@ body.page-id-4036 .btnag a {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
 }
+h1 span {
+  font-family: 'Simple Boy' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  text-transform: lowercase;
+}
+.page-id-3982 .btBreadCrumbs,
+.page-id-5288 .btBreadCrumbs {
+  display: none;
+}
+.page-id-3982 strong.somos,
+.page-id-5288 strong.somos {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  font-size: 25px;
+}
+.page-id-3982 .rosa .bt_bb_headline_content,
+.page-id-5288 .rosa .bt_bb_headline_content {
+  color: #e50075;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+}
+.page-id-3982 .rosa .bt_bb_headline_subheadline,
+.page-id-5288 .rosa .bt_bb_headline_subheadline {
+  color: #434343;
+  font-weight: 500;
+}
+/***EXTRANET**/
+.page-id-5288 h2 {
+  font-family: 'Bebas Neue';
+}
+.page-id-5288 h2 span {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+}
+.page-id-5288 h2 b {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+}
+.page-id-5288 .azul strong {
+  font-size: 50px;
+  color: #00a4af!important;
+  display: block;
+  position: relative;
+  left: 63px;
+}
+.page-id-5288 .conoce {
+  color: #e50075;
+  font-size: 50px;
+}
+.page-id-5288 h5 {
+  color: #7d7d7d;
+  font-weight: bold;
+  font-size: 17px;
+}
+.page-id-5288 .avion2 {
+  position: relative;
+  top: -52px;
+  left: -106px;
+  margin-bottom: -54px;
+}
+.page-id-5288 .bon1 .tour_search .btSearchToursRow .btSearchField.btSearchButton button {
+  background-color: #f9b000!important;
+}
+.page-id-5288 .bon1 {
+  position: relative;
+  left: 177px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/**OPERADORES***/
+.page-id-5803 .bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal;
+}
+.page-id-5803 h2 {
+  font-family: 'Bebas Neue';
+}
+.page-id-5803 h2 span {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+}
+.page-id-5803 h2 b {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-size: 50px;
+}
+.page-id-5803 h2 strong {
+  display: block;
+}
+.page-id-5803 .azul strong {
+  font-size: 50px;
+  color: #e50075!important;
+  position: relative;
+  left: 63px;
+}
+.page-id-5803 .avion {
+  position: relative;
+  left: 175px;
+  top: 145px;
+  margin-top: -90px;
+}
 #slider .bt_bb_headline_subheadline {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
@@ -765,19 +871,24 @@ aside .btSearch {
 .btLightSkin .btDarkSkin .btLightSkin .btBox .btSearchToursWidget .tour_search {
   background: none !important;
 }
-body.page-id-5288 #contacto {
+body.page-id-5288 #contacto,
+body.page-id-5803 #contacto {
   margin-top: 80px;
 }
-body.page-id-5288 #CF5d531c10ba4c1_1-row-1 .col-sm-12 {
+body.page-id-5288 #CF5d531c10ba4c1_1-row-1 .col-sm-12,
+body.page-id-5803 #CF5d531c10ba4c1_1-row-1 .col-sm-12 {
   margin-top: -92px;
 }
-body.page-id-5288 .col2 form {
+body.page-id-5288 .col2 form,
+body.page-id-5803 .col2 form {
   width: 100%;
 }
-body.page-id-5288 .bt_bb_text {
-  margin-top: 80px;
+body.page-id-5288 .bt_bb_text,
+body.page-id-5803 .bt_bb_text {
+  margin-bottom: 100px;
 }
-body.page-id-5288 .btn {
+body.page-id-5288 .btn,
+body.page-id-5803 .btn {
   background-color: #e50075;
   color: white!important;
   font-weight: bold;
