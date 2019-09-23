@@ -60,11 +60,20 @@ echo boldthemes_preloader_html(); ?>
 						<div class="btHorizontalMenuTrigger">&nbsp;<?php echo boldthemes_get_icon_html( array( "icon" => "fa_f0c9", "url" => "#" ) ); ?></div>
 					<?php } ?>
 					
-					<?php echo do_shortcode('[sc name="divida"]');
-    ?>
-				<!--	<div class="headerviva">
-		         <span class="cambio">Tipo de cambio a 07 MAY 2019 para depositar en MXN</span> <span class="cambio"> USD 19.25</span> <span class="cambio"> EURO 21.33</span> <span > <strong>¡Inicia tu sesión ahora!</strong></span> <a href="">Acceso agentes</a>
-		     </div> -->
+					
+				<div class="headerviva">
+<span class="cambio">Tipo de cambio a <?php 
+    date_default_timezone_set('America/Mexico_City');
+    //Dia-Mes-Año Hora:Minutos:Segundos
+$fecha = date('d-m-Y');
+    
+    
+    
+    echo ($fecha);
+    ?></span> <span class="cambio"> <img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/09/dollar.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5726" /> 1  USD = <?php echo do_shortcode('[sc name="dollar"]');
+    ?> moneda nacional</span> <span class="cambio"> <img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/09/euro.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" />1 Euro = <?php echo do_shortcode('[sc name="euro"]');
+    ?> moneda nacional</span> <span > <strong>¡Inicia tu sesión ahora!</strong></span> <a href="/iniciar-sesion/">Acceso agentes</a>
+</div>
 					<div class="logo">
 					
 						<span>

@@ -433,6 +433,108 @@ body.page-id-5839 .btn {
   left: 89px;
   top: 7px;
 }
+/**FOOTER**/
+footer .rosa3 b {
+  color: #e50075!important;
+  display: block;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+}
+footer .rosa3 strong {
+  font-weight: normal!important;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: white!important;
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+}
+/**INICIO SESIÓN*/
+body.page-id-4178 .tit span.bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+}
+body.page-id-4178 .tit2 span.bt_bb_headline_content {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+}
+body.page-id-4178 #contactoviva #ewd-feup-login,
+body.page-id-4178 #contactoviva .ewd-feup-submit .ewd-feup-login-submit,
+body.page-id-4178 #contactoviva .feup-pure-button {
+  position: relative!important;
+  left: inherit!important;
+}
+/***REGISTRAR**/
+body.page-id-4121 .ex span.bt_bb_headline_content {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+  color: #e50075;
+}
+body.page-id-4121 .estas span.bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+}
+body.page-id-4121 .estas .bt_bb_headline_subheadline {
+  color: #7d7d7d;
+  font-weight: 500;
+}
+body.page-id-4121 .directorio span.bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  color: #00a4af;
+}
+body.page-id-4121 .directorio .bt_bb_headline_subheadline {
+  color: #7d7d7d;
+  font-weight: 500;
+}
+/***BENEFICIOS**/
+body.page-id-5881 .btBreadCrumbs {
+  display: none;
+}
+body.page-id-5881 strong.somos {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  font-size: 35px;
+}
+body.page-id-5881 .contamos p {
+  color: #313131;
+  font-weight: bold;
+}
+body.page-id-5881 h2 span {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+}
+body.page-id-5881 h2 b {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+}
+body.page-id-5881 .rosa,
+body.page-id-5881 ros {
+  text-align: justify;
+}
+body.page-id-5881 .rosa h5 span {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  color: #e50075;
+}
+body.page-id-5881 .azul h3 span.bt_bb_headline_superheadline {
+  color: #313131!important;
+}
+body.page-id-5881 .azul h3 span.bt_bb_headline_superheadline u {
+  color: #313131!important;
+  text-decoration: underline;
+}
+body.page-id-5881 .ama span {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+}
 #slider .bt_bb_headline_subheadline {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
@@ -611,13 +713,13 @@ a,
 .registrar {
   margin-left: 10px;
   background-color: #e50075;
-  padding: 19px 60px;
+  padding: 16px 60px;
   margin-top: 20px;
   color: white!important;
   font-weight: bold;
   position: relative;
-  top: -71px;
-  left: 246px;
+  top: -107px;
+  float: right;
 }
 .registrar2 {
   margin-left: 10px;
@@ -650,7 +752,7 @@ a,
 }
 p.olvidar a {
   position: relative;
-  top: -46px;
+  top: -26px;
   color: white!important;
   text-decoration: underline;
 }
@@ -722,7 +824,7 @@ body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group {
   float: left;
   width: 100%;
 }
-body.home .feup-pure-form-aligned .feup-pure-control-group {
+#contactoviva .feup-pure-form-aligned .feup-pure-control-group {
   float: left;
   width: 100%;
 }
@@ -739,7 +841,7 @@ body.page-id-4178 .feup-pure-button {
   position: relative;
   left: 190px;
 }
-body.home .feup-pure-button {
+#contactoviva .feup-pure-button {
   width: 45%!important;
 }
 .logo2 {
