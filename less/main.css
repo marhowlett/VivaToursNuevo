@@ -390,6 +390,49 @@ h1 span {
   top: 145px;
   margin-top: -90px;
 }
+/**SALIDAS ESPECIALES */
+body.page-id-5839 .btBreadCrumbs {
+  display: none;
+}
+body.page-id-5839 strong.somos {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  font-size: 25px;
+}
+body.page-id-5839 .consulta span.bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: 500;
+}
+body.page-id-5839 .consulta2 span.bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+body.page-id-5839 .consulta2 span.bt_bb_headline_content strong {
+  display: block;
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+  position: relative;
+  left: 50px;
+}
+body.page-id-5839 .consulta2 span.bt_bb_headline_content b {
+  display: block;
+  position: relative;
+  left: 115px;
+}
+body.page-id-5839 .avion {
+  position: relative;
+  left: -261px;
+  top: -105px;
+}
+body.page-id-5839 .btn {
+  position: relative;
+  left: 89px;
+  top: 7px;
+}
 #slider .bt_bb_headline_subheadline {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
