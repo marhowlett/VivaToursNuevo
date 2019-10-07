@@ -639,6 +639,13 @@ a,
   background-color: #f9b000;
   padding: 10px;
 }
+.headerviva .ewd-feup-submit {
+  position: relative;
+  left: 2171px;
+  right: 1207px;
+  top: -63px;
+  background-color: #e50075!important;
+}
 .headerviva a,
 .headerviva span {
   margin-left: 20px;
