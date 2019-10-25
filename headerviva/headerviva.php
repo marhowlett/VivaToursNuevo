@@ -1,4 +1,5 @@
 <?php
+
 //revisado
 /**
  * Plugin Name: Botón header
@@ -22,8 +23,10 @@ if(empty($email)){
  return $resultado;
 }
         else {
-            $resultado=do_shortcode('[login-logout-toggle login_redirect_page="/panel" logout_redirect_page="/"]');
- return $resultado;
+           /* $resultado=do_shortcode('[login-logout-toggle login_redirect_page="/panel" logout_redirect_page="/"]');
+ return $resultado;*/
+            $resultado= ' <a href="/panel">Mi panel</a>';
+                return $resultado;
         }
 
     }?>

@@ -763,15 +763,18 @@ p.olvidar a {
   color: white!important;
   text-decoration: underline;
 }
+#contactoviva p {
+  margin: 0.8em!important;
+}
 p.poli a {
   position: relative;
-  top: -88px;
+  top: -80px;
   color: white!important;
 }
 p.poli2 a {
   position: relative;
-  top: -70px;
-  left: 169px;
+  top: -65px;
+  left: 150px;
   color: white!important;
 }
 .ewd-feup-login-submit {
@@ -792,6 +795,9 @@ input:not([type='checkbox']):not([type='radio']):not([type='submit']) {
   -moz-transition: all 300ms ease;
   transition: all 300ms ease;
   width: 100%!important;
+}
+body.page-id-5288 .feup-pure-form-aligned .feup-pure-control-group {
+  float: inherit!important;
 }
 .feup-pure-form-aligned .feup-pure-control-group label {
   float: initial;
