@@ -668,7 +668,8 @@ a,
   background-color: #00a4af!important;
   border-radius: 10px 10px!important;
   border: 0px solid #000000!important;
-  padding: 5px;
+  padding: 6px 20px;
+  font-size: 25px;
 }
 .headerviva a:hover {
   background-color: #e50075!important;
@@ -747,12 +748,12 @@ a,
   color: white!important;
   font-weight: bold;
   position: relative;
-  top: 179px;
+  top: 192px;
   left: -379px;
 }
 .con2 {
   position: relative;
-  top: 192px;
+  top: 209px;
   left: -112px;
   color: white!important;
   text-decoration: underline;
@@ -1060,6 +1061,45 @@ body.page-id-4121 label {
 }
 body.page-id-4121 span#ewd-feup-password-result {
   color: white;
+}
+.btTourSingleItemStandard .btTourMainContent h1,
+.btTourSingleItemStandard .btTourMainContent h2,
+.btTourSingleItemStandard .btTourMainContent h3,
+.btTourSingleItemStandard .btTourMainContent h4,
+.btTourSingleItemStandard .btTourMainContent h5,
+.btTourSingleItemStandard .btTourMainContent h6,
+.btTourSingleItemStandard .btTourMainContent h7,
+.btTourSingleItemStandard .btTourMainContent h8 {
+  font-size: 1.275em;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  clear: unset;
+}
+.btPageHeadline.btTourHeadline .bt_bb_headline .bt_bb_headline_content span {
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1260px;
+  font-size: 95px;
+}
+.bt_bb_size_large.bt_bb_headline h1,
+.bt_bb_size_large.bt_bb_headline h2,
+.bt_bb_size_large.bt_bb_headline h3,
+.bt_bb_size_large.bt_bb_headline h4,
+.bt_bb_size_large.bt_bb_headline h5,
+.bt_bb_size_large.bt_bb_headline h6 {
+  font-size: 2.5em;
+}
+.btArticleContent blockquote {
+  padding: -webkit-calc(2.75em) 2.4em 2em;
+  padding: -moz-calc(2.75em) 2.4em 2em;
+  padding: calc(2.75em) 2.4em 2em;
+  font-size: 1.15em;
+  margin-top: 2em;
 }
 .btLightSkin .btBox .btSearchToursWidget .tour_search,
 .btDarkSkin .btLightSkin .btBox .btSearchToursWidget .tour_search,
