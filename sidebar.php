@@ -75,3 +75,50 @@
     </nav>
   </aside>
 </section>
+
+
+
+
+<!--OTHER-->
+
+
+<nav id="ml-menu" class="menu">
+			<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+			<div class="menu__wrap">
+				<ul data-menu="main" class="menu__level" tabindex="-1" role="menu" aria-label="Menú principal">
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-1" aria-owns="submenu-1" href="#">Nuestra programación</a></li>
+					<li class="menu__item abrir-link" role="menuitem"><a class="menu__link"  href="/tours/?bt_tour_search_list_count">Superbuscador</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2" aria-owns="submenu-3" href="#">Kit de herramientas</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" aria-owns="submenu-3" href="/reservaciones">Mis reservaciones</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-3" aria-owns="submenu-4" href="#">Información General</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" aria-owns="submenu-4" href="#">Contacto</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" aria-owns="submenu-4" href="#">Ayuda</a></li>
+					
+				</ul>
+				<!-- Submenu 1 -->
+				<ul data-menu="submenu-1" id="submenu-1" class="menu__level" tabindex="-1" role="menu" aria-label="Vegetables">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="/panel">Programación Regular</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="/salidas-especiales-panel/">Salidas especiales</a></li>		
+					
+				</ul>
+			
+				<!-- Submenu 2 -->
+				<ul data-menu="submenu-2" id="submenu-2" class="menu__level" tabindex="-1" role="menu" aria-label="Fruits">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="/material-sin-logo">Material sin logo</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="/webinars-2019/">Webinars</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" data-submenu="submenu-2-1" aria-owns="submenu-2-1" href="/fam-trips">Fam Trips</a></li>
+					
+				</ul>
+			
+				<!-- Submenu 3 -->
+				<ul data-menu="submenu-3" id="submenu-3" class="menu__level" tabindex="-1" role="menu" aria-label="Grains">
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="/beneficios-panel">Beneficios</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Condiciones de Colaboración</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Descuentos y Regalos</a></li>
+					<li class="menu__item" role="menuitem"><a class="menu__link" href="#">Nuestros Servicios</a></li>				
+				
+				</ul>
+		
+		
+			</div>
+		</nav>
