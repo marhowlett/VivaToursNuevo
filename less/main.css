@@ -56,6 +56,10 @@
 blockquote:before {
   display: none!important;
 }
+/**INICIO SECCIÓN DIRECTORIO / TEMPORAL*/
+body.home {
+  /***TEMPORAL DIRECTORIO**/
+}
 body.home h2 {
   font-family: 'Bebas Neue';
 }
@@ -106,6 +110,9 @@ body.home .rosa3 strong {
   margin-bottom: 10px;
   font-size: 40px;
   color: white!important;
+}
+body.home .estimado {
+  display: none;
 }
 body.home .estimado b {
   position: relative;
@@ -797,7 +804,7 @@ a,
   margin-top: 20px;
   color: white!important;
   position: relative;
-  top: 187px;
+  top: 176px;
   font-size: 27px!important;
   left: -379px;
   font-family: 'Bebas Neue';
