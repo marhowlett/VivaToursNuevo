@@ -72,7 +72,7 @@ $fecha = date('d-m-Y');
     echo ($fecha);
     ?></span> <span class="cambio"> <img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/09/dollar.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5726" /> 1  USD = <?php echo do_shortcode('[sc name="dollar"]');
     ?> moneda nacional</span> <span class="cambio"> <img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/09/euro.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" />1 Euro = <?php echo do_shortcode('[sc name="euro"]');
-    ?> moneda nacional</span> <?php echo do_shortcode('[headerviva]'); ?>
+    ?> moneda nacional</span> <?php echo do_shortcode('[headerviva]'); ?> <a class="buscar" href="https://previo.viajesvivatours.com/tours/?bt_tour_search_list_count"><img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/10/search.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" /></a>
 </div>
 					<div class="logo">
 					

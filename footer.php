@@ -47,7 +47,7 @@ Cuernavaca, Mor., México</span></div>
 </div><div class="bt_bb_separator bt_bb_top_spacing_large bt_bb_bottom_spacing_normal bt_bb_border_style_none"></div><div class="bt_bb_text"><p style="text-align: left;"><?php echo do_shortcode('[registrar]');
     ?>  </p>
 <p class="olvidar" style="text-align: center;"><a href="http://previo.viajesvivatours.com/olvidar-contrasena/">¿Olvidaste tu contraseña?</a></p>
-<p class="poli2" style="text-align: right;"><a>Política de Privacidad</a></p>
+<p class="poli2" style="text-align: right;"><a href="http://previo.viajesvivatours.com/aviso-de-privacidad/">Política de Privacidad</a></p>
 <p class="poli" style="text-align: right;"><a href="mailto:uriel@viajesvivatours.com?Subject=Problemas con el inicio de sesión. "> ¿Problemas con el inicio se sesión? Clic aquí.</a></p>
 </div></div></div></div></div></div></div></div></section>
 </footer>
