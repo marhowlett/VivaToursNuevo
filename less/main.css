@@ -242,6 +242,84 @@ body.page-id-3924 .avion {
 body.page-id-3924 #valores {
   background: linear-gradient(135deg, #f5f5f5 100%, #ffffff 0%) !important;
 }
+/***EDITAR PERFIL***/
+body.page-id-5238 .avion,
+body.page-id-6992 .avion {
+  position: relative;
+  left: 202px;
+  top: 66px;
+}
+body.page-id-5238 .avion2,
+body.page-id-6992 .avion2 {
+  position: relative;
+  left: 333px;
+  top: 87px;
+}
+body.page-id-5238 .bt_bb_headline,
+body.page-id-6992 .bt_bb_headline {
+  margin-top: 20px;
+}
+body.page-id-5238 .bt_bb_headline h2,
+body.page-id-6992 .bt_bb_headline h2 {
+  font-family: 'Simple Boy' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  color: #e50075;
+}
+body.page-id-5238 p.agencia,
+body.page-id-6992 p.agencia {
+  color: #434343;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-size: 65px;
+}
+body.page-id-5238 .edperfil .feup-pure-form-aligned .feup-pure-control-group label,
+body.page-id-6992 .edperfil .feup-pure-form-aligned .feup-pure-control-group label {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+body.page-id-5238 .edperfil #ewd-feup-edit-1,
+body.page-id-6992 .edperfil #ewd-feup-edit-1,
+body.page-id-5238 .edperfil #ewd-feup-edit-10,
+body.page-id-6992 .edperfil #ewd-feup-edit-10,
+body.page-id-5238 .edperfil #ewd-feup-edit-11,
+body.page-id-6992 .edperfil #ewd-feup-edit-11 {
+  color: #00a4af!important;
+}
+body.page-id-5238 .edperfil #ewd-feup-edit-12,
+body.page-id-6992 .edperfil #ewd-feup-edit-12 {
+  color: #e50075!important;
+}
+body.page-id-5238 .edperfil #ewd-feup-edit-3,
+body.page-id-6992 .edperfil #ewd-feup-edit-3,
+body.page-id-5238 .edperfil #ewd-feup-edit-4,
+body.page-id-6992 .edperfil #ewd-feup-edit-4,
+body.page-id-5238 .edperfil #ewd-feup-edit-5,
+body.page-id-6992 .edperfil #ewd-feup-edit-5,
+body.page-id-5238 .edperfil #ewd-feup-edit-13,
+body.page-id-6992 .edperfil #ewd-feup-edit-13 {
+  color: #fab000!important;
+}
+body.page-id-5238 .edperfil .ewd-feup-submit,
+body.page-id-6992 .edperfil .ewd-feup-submit {
+  background-color: #e50075!important;
+}
+body.page-id-5238 .edperfil .feup-pure-form-aligned .feup-pure-control-group,
+body.page-id-6992 .edperfil .feup-pure-form-aligned .feup-pure-control-group {
+  float: inherit!important;
+}
+body.page-id-5238 .edperfil .ewd-feup-text-input,
+body.page-id-6992 .edperfil .ewd-feup-text-input {
+  border: 1px solid;
+  border-color: black;
+  box-shadow: 0 0 15px rgba(24, 24, 24, 0.15);
+  background: #fff;
+  color: #d2d2d2!important;
+  font-family: 'Montserrat' !important;
+  letter-spacing: normal;
+}
 /**TIPS**/
 body.page-id-4036 .btBreadCrumbs {
   display: none;
@@ -855,6 +933,10 @@ input:not([type='checkbox']):not([type='radio']):not([type='submit']) {
   transition: all 300ms ease;
   width: 100%!important;
 }
+aside.btSidebar .btSearch {
+  position: relative;
+  left: 7px;
+}
 aside.btSidebar .feup-pure-form-aligned .feup-pure-control-group {
   float: inherit!important;
   position: relative;
@@ -874,12 +956,6 @@ aside.btSidebar .feup-pure-form-aligned .feup-pure-control-group {
 }
 .feup-pure-form textarea {
   width: 100%;
-}
-body.page-id-5238 .feup-pure-form-aligned .feup-pure-control-group label {
-  color: black!important;
-}
-body.page-id-5238 .feup-pure-form-aligned .feup-pure-control-group {
-  float: inherit!important;
 }
 #ewd-feup-password-result {
   /* margin-top: 30px; */
@@ -906,7 +982,7 @@ body.page-id-4178 #ewd-feup-login {
 }
 body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group {
   float: left;
-  width: 100%;
+  width: 48%;
 }
 #contactoviva .feup-pure-form-aligned .feup-pure-control-group {
   float: left;
@@ -1144,6 +1220,18 @@ body.page-id-4121 label {
 }
 body.page-id-4121 span#ewd-feup-password-result {
   color: white;
+}
+body.page-id-4121 #ewd-feup-username-div,
+body.page-id-4121 #ewd-feup-password-strength-div {
+  width: 98%;
+}
+body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group label {
+  width: 22em!important;
+}
+body.page-id-4121 form#ewd-feup-register-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .btTourSingleItemStandard .btTourMainContent h1,
 .btTourSingleItemStandard .btTourMainContent h2,

@@ -21,10 +21,7 @@ el pago</font><font style="font-size:18px; color:#FFF;"> de esta reserva para<br
 	</td>
   </tr>
   <tr>
-    <td colspan="5" align="center" valign="middle">Aquí puedes consultar todos los detalles de tu reservación, cualquier duda consultanos.</td>
-  </tr>
-  <tr>
-    <td colspan="5">'.$tr.'</td>
+    <td colspan="5" align="center" valign="middle">Puedes consultar tus solicitudes de reservación en tu panel de agentes en la opción de Mis reservas.</td>
   </tr>
   <tr>
     <td colspan="5"  ><span style="color:#FFF;">Datos Bancarios:</span></td>
@@ -54,8 +51,10 @@ Suc: 0817  <br>
 CLABE 012540001769172328  <br>
 BBVA BANCOMER SA  <br>
 DOMICILIO: CUERNAVACA, MORELOS. MEXICO</p>
-      </td></tr><tr><td colspan="5" bgcolor="#009999" style="color:#FFF;" >
-      <p>PARA DEPOSITOS EN DOLARES:   </td></tr><tr><td colspan="5">
+      </td></tr>
+      <tr><td colspan="5" bgcolor="#009999" style="color:#FFF;" >
+      <p>PARA DEPOSITOS EN DOLARES: </p>  </td></tr>
+       <tr><td colspan="5">
         Viva Tours Agencia Mayorista de Viajes SA de CV  <br>
         Cuenta Nº: 03900002771  <br>
         Suc: 006  <br>
@@ -82,14 +81,16 @@ DOMICILIO: CUERNAVACA, MORELOS. MEXICO</p>
         BBVA BANCOMER SA  <br>
         CODIGO SWIFT: BCMRMXMM  <br>
         DOMICILIO: CUERNAVACA, MORELOS. MEXICO  <br>
-        </td></tr><tr><td colspan="5" bgcolor="#009999" style="color:#FFF;" >
-        PARA TRANSFERNECIA EN EUROS: </td></tr><tr><td colspan="5">
+        </td></tr>
+        <tr><td colspan="5" bgcolor="#009999" style="color:#FFF;" >
+        PARA TRANSFERNECIA EN EUROS: </td></tr>
+        <tr><td colspan="5">
         <br>
         Viva Tours Agencia Mayorista de Viajes SA de CV  <br>
         Cuenta Nº: 0176922562  Suc: 0817  <br>
         CLABE 012540001769225628  <br>
         BBVA BANCOMER SA  <br>
         CODIGO SWIFT: BCMRMXMM  <br>
-    DOMICILIO: CUERNAVACA, MORELOS. MEXICO</p></td>
+            DOMICILIO: CUERNAVACA, MORELOS. MEXICO</td>
   </tr>
 </table>
