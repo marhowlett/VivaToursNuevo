@@ -242,6 +242,62 @@ body.page-id-3924 .avion {
 body.page-id-3924 #valores {
   background: linear-gradient(135deg, #f5f5f5 100%, #ffffff 0%) !important;
 }
+/**CONTACTO**/
+body.page-id-6999 .avion {
+  position: relative;
+  left: 202px;
+  top: 66px;
+}
+body.page-id-6999 .bt_bb_headline {
+  margin-top: 20px;
+}
+body.page-id-6999 .bt_bb_headline h2 {
+  font-family: 'Simple Boy' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  color: #e50075;
+}
+body.page-id-6999 .edperfil .intl-tel-input {
+  width: 100%!important;
+}
+body.page-id-6999 .edperfil label {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #00a4af!important;
+}
+body.page-id-6999 .edperfil input,
+body.page-id-6999 .edperfil textarea {
+  border: 1px solid;
+  border-color: black!important;
+  box-shadow: 0 0 15px rgba(24, 24, 24, 0.15);
+  background: #fff;
+  color: #d2d2d2!important;
+  font-family: 'Montserrat' !important;
+  letter-spacing: normal;
+}
+body.page-id-6999 .edperfil #fld_1203897_1 {
+  border: none!important;
+  background-color: #e50075!important;
+  color: white;
+  font-size: 25px;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal;
+}
+body.page-id-6999 h3 {
+  font-family: 'Simple Boy' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  color: #e50075;
+}
+body.page-id-6999 h4 {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+  color: #fab000!important;
+}
 /***EDITAR PERFIL***/
 body.page-id-5238 .avion,
 body.page-id-6992 .avion {
@@ -587,6 +643,20 @@ body.page-id-4178 #contactoviva .feup-pure-button {
   left: inherit!important;
 }
 /***REGISTRAR**/
+body.page-id-4121 .btBreadCrumbs {
+  display: none;
+}
+body.page-id-4121 h1 span {
+  font-family: 'Simple Boy' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+}
+body.page-id-4121 strong.somos {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+  font-size: 25px;
+}
 body.page-id-4121 .ex span.bt_bb_headline_content {
   font-family: 'Simple Boy';
   letter-spacing: normal;
@@ -1215,8 +1285,14 @@ body.page-id-4121 .feup-pure-control-group img {
   position: relative;
   left: -250px;
 }
-body.page-id-4121 label {
+body.page-id-4121 label,
+body.page-id-4121 input.ewd-feup-submit,
+body.page-id-4121 #ewd-feup-password-result {
   color: white;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 18px;
 }
 body.page-id-4121 span#ewd-feup-password-result {
   color: white;
