@@ -465,19 +465,22 @@ h1 span {
 }
 /***EXTRANET**/
 .page-id-6126 h2,
-.page-id-6197 h2 {
+.page-id-6197 h2,
+.page-id-7162 h2 {
   font-family: 'Simple Boy';
   letter-spacing: normal;
   font-weight: normal;
   color: #e50075;
 }
 .page-id-6126 h2 b,
-.page-id-6197 h2 b {
+.page-id-6197 h2 b,
+.page-id-7162 h2 b {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
 }
 .page-id-6126 h5,
-.page-id-6197 h5 {
+.page-id-6197 h5,
+.page-id-7162 h5 {
   font-weight: bold;
   font-family: 'Bebas Neue';
 }
@@ -680,61 +683,207 @@ body.page-id-4121 .directorio .bt_bb_headline_subheadline {
   color: #7d7d7d;
   font-weight: 500;
 }
+/***BENEFICIOS PANEL**/
+body.page-id-6705 .titulo .bt_bb_headline_subheadline {
+  font-size: 30px;
+  color: black!important;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+body.page-id-6705 .forma .bt_bb_headline_content {
+  color: #f9b000;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-size: 40px;
+}
+body.page-id-6705 .ros .bt_bb_headline_content {
+  font-weight: 600;
+  text-align: justify;
+}
+body.page-id-6705 .rosa .bt_bb_headline_content {
+  color: #e50075;
+  font-weight: 600;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  text-align: justify;
+  font-size: 30px;
+  position: relative;
+  margin-top: 145px;
+}
+body.page-id-6705 .ama span {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal!important;
+}
+body.page-id-6705 .azul h3 span.bt_bb_headline_superheadline {
+  color: #313131!important;
+}
+body.page-id-6705 .azul h3 span.bt_bb_headline_superheadline u {
+  color: #313131!important;
+  text-decoration: underline;
+}
 /***BENEFICIOS**/
-body.page-id-5881 .btBreadCrumbs,
-body.page-id-6705 .btBreadCrumbs {
+body.page-id-5881 .btBreadCrumbs {
   display: none;
 }
-body.page-id-5881 strong.somos,
-body.page-id-6705 strong.somos {
+body.page-id-5881 strong.somos {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
   font-weight: normal!important;
   font-size: 35px;
 }
-body.page-id-5881 .contamos p,
-body.page-id-6705 .contamos p {
+body.page-id-5881 .contamos p {
   color: #313131;
   font-weight: bold;
 }
-body.page-id-5881 h2 span,
-body.page-id-6705 h2 span {
+body.page-id-5881 h2 span {
   font-family: 'Simple Boy';
   letter-spacing: normal;
   font-weight: normal;
 }
-body.page-id-5881 h2 b,
-body.page-id-6705 h2 b {
+body.page-id-5881 h2 b {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
 }
 body.page-id-5881 .rosa,
-body.page-id-6705 .rosa,
-body.page-id-5881 ros,
-body.page-id-6705 ros {
+body.page-id-5881 ros {
   text-align: justify;
 }
-body.page-id-5881 .rosa h5 span,
-body.page-id-6705 .rosa h5 span {
+body.page-id-5881 .rosa h5 span {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
   font-weight: normal!important;
   color: #e50075;
 }
-body.page-id-5881 .azul h3 span.bt_bb_headline_superheadline,
-body.page-id-6705 .azul h3 span.bt_bb_headline_superheadline {
+body.page-id-5881 .azul h3 span.bt_bb_headline_superheadline {
   color: #313131!important;
 }
-body.page-id-5881 .azul h3 span.bt_bb_headline_superheadline u,
-body.page-id-6705 .azul h3 span.bt_bb_headline_superheadline u {
+body.page-id-5881 .azul h3 span.bt_bb_headline_superheadline u {
   color: #313131!important;
   text-decoration: underline;
 }
-body.page-id-5881 .ama span,
-body.page-id-6705 .ama span {
+body.page-id-5881 .ama span {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
   font-weight: normal!important;
+}
+/**NUESTROS SERVICIOS**/
+body.page-id-7034 .titulo .bt_bb_headline_subheadline {
+  font-size: 30px;
+  color: black!important;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+body.page-id-7034 .ros .bt_bb_headline_content {
+  font-weight: 600;
+  text-align: center;
+  color: #313131;
+}
+body.page-id-7034 .ros .bt_bb_headline_content a.azul {
+  color: #00a4af;
+}
+body.page-id-7034 .ros .bt_bb_headline_content a.negro {
+  color: #313131;
+  font-weight: normal;
+  text-decoration: underline;
+}
+body.page-id-7034 .ama span {
+  font-weight: 600;
+  text-align: justify;
+  color: #313131;
+}
+body.page-id-7034 .ama3 span {
+  font-weight: 600;
+  text-align: justify;
+}
+body.page-id-7034 .amarillo .bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 50px;
+}
+body.page-id-7034 .azul1 .bt_bb_headline_content {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+  font-size: 50px;
+}
+body.page-id-7034 .trans {
+  position: relative;
+  top: -54px;
+  left: 221px;
+}
+body.page-id-7034 .azul2 {
+  position: relative;
+  top: -20px;
+}
+body.page-id-7034 .avion1 {
+  position: relative;
+  top: -76px;
+}
+body.page-id-7034 .ama2 {
+  position: relative;
+  top: -35px;
+}
+body.page-id-7034 .rosa .bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+body.page-id-7034 .asimple .bt_bb_headline_content {
+  font-weight: 500;
+}
+body.page-id-7034 .imali {
+  position: relative;
+  top: -50px;
+}
+body.page-id-7034 .com {
+  position: relative;
+  left: 65px;
+  top: 10px;
+}
+body.page-id-7034 h5.des {
+  line-height: 20px;
+}
+body.page-id-7034 h5.des .bt_bb_headline_content {
+  font-size: 20px;
+}
+/***DESCUENTOS**/
+body.page-id-7100 .amarillo .bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: normal;
+}
+body.page-id-7100 .amarillo2 .bt_bb_headline_content {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+}
+body.page-id-7100 .ama .bt_bb_headline_content {
+  font-weight: 600;
+  text-align: justify;
+}
+body.page-id-7100 .ama2 .bt_bb_headline_content {
+  font-weight: 600;
+  font-size: 23px;
+}
+body.page-id-7100 .titulo .bt_bb_headline_content {
+  font-size: 36px;
+}
+body.page-id-7100 .azul1 .bt_bb_headline_content {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+  font-weight: normal;
+}
+body.page-id-7100 .av {
+  position: relative;
+  top: -51px;
+  left: 136px;
+}
+body.page-id-7100 .normal .bt_bb_headline_content {
+  font-weight: normal;
 }
 #slider .bt_bb_headline_subheadline {
   font-family: 'Bebas Neue' !important;

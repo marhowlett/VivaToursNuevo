@@ -40,7 +40,7 @@ aside .menu {
 	position: relative;	
 	left: 0;
 	width: 300px;
-	height: calc(100vh - 120px);
+	height: calc(125vh - 120px);
 	background: #0ba4a8;
 }
 
