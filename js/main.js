@@ -11,6 +11,10 @@
 
 ;(function(window) {
 
+    
+    document.oncontextmenu = new Function("return false;");
+    
+    
 	'use strict';
 
 	var support = { animations : Modernizr.cssanimations },

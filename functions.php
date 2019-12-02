@@ -28,6 +28,85 @@ function theme_js() {
 
 add_action('wp_enqueue_scripts', 'theme_js');
 
+/*Función de guardar los registros de caldera forms en una tabla*/
+
+add_action( 'guardar_reservacion_action', 'guardar_reserva');
+function guardar_reserva( $data ) {
+    if ( isset( $data[ 'nombre' ] ) ) {
+		global $wpdb;
+
+		$wpdb->insert('wp_reservaciones', array(
+							   'nombre' => $data['nombre'],
+							   'correo_electronico'  =>   $data['correo_electronico'],
+							   'tel' =>$data['tel'],
+							   'programa' => $data['programa'],
+							   'no_de_habitaciones' => $data['no_de_habitaciones'],
+							   'comentarios' => $data['comentarios'],
+							   
+							   'habitacion_1' => $data['habitacion_1'],
+							   'categoria_1' => $data['categoria_1'],
+							   'nompaxsimple1' => $data['nompaxsimple1'],
+							   'descuentosimple1' => $data['descuentosimple1'],
+							   'fechasimple1' => $data['fechasimple1'],
+							   'nompaxdoble1' => $data['nompaxdoble1'],
+							   'descuentodoble1' => $data['descuentodoble1'],
+							   'fechadoble1' => $data['fechadoble1'],
+							   'nompaxtriple1' => $data['nompaxtriple1'],
+							   'descuentotriple1' => $data['descuentotriple1'],
+							   'fechatripe1' => $data['fechatripe1'],
+							   
+							   'habitacion_2' => $data['habitacion_2'],
+							   'categoria_2' => $data['categoria_2'],
+							   'nompaxsimple2' => $data['nompaxsimple2'],
+							   'descuentosimple2' => $data['descuentosimple2'],
+							   'fechasimple2' => $data['fechasimple2'],
+							   'nompaxdoble2' => $data['nompaxdoble2'],
+							   'descuentodoble2' => $data['descuentodoble2'],
+							   'fechadoble2' => $data['fechadoble2'],
+							   'nompaxtriple2' => $data['nompaxtriple2'],
+							   'descuentotriple2' => $data['descuentotriple2'],
+							   'fechatripe2' => $data['fechatripe2'],
+							   
+							   'habitacion_3' => $data['habitacion_3'],
+							   'categoria_3' => $data['categoria_3'],
+							   'nompaxsimple3' => $data['nompaxsimple3'],
+							   'descuentosimple3' => $data['descuentosimple3'],
+							   'fechasimple3' => $data['fechasimple3'],
+							   'nompaxdoble3' => $data['nompaxdoble3'],
+							   'descuentodoble3' => $data['descuentodoble3'],
+							   'fechadoble3' => $data['fechadoble3'],
+							   'nompaxtriple3' => $data['nompaxtriple3'],
+							   'descuentotriple3' => $data['descuentotriple3'],
+							   'fechatripe3' => $data['fechatripe3'],
+
+							   'habitacion_4' => $data['habitacion_4'],
+							   'categoria_4' => $data['categoria_4'],
+							   'nompaxsimple4' => $data['nompaxsimple4'],
+							   'descuentosimple4' => $data['descuentosimple4'],
+							   'fechasimple4' => $data['fechasimple4'],
+							   'nompaxdoble4' => $data['nompaxdoble4'],
+							   'descuentodoble4' => $data['descuentodoble4'],
+							   'fechadoble4' => $data['fechadoble4'],
+							   'nompaxtriple4' => $data['nompaxtriple4'],
+							   'descuentotriple4' => $data['descuentotriple4'],
+							   'fechatripe4' => $data['fechatripe4']
+							  )
+					);
+    }
+    
+}
+
+/*Shortcade para mostrar las reservaciones*/
+
+function mis_reservas(){
+ 
+	$output = do_shortcode('[wpdatatable id=3 var1='.do_shortcode('[user-data]').']');
+	   
+	return $output;
+   
+  }
+   
+  add_shortcode('mis_reservas', mis_reservas); 
 
 if ( ! class_exists( 'BoldThemesFrameworkTemplate' ) ) {
 	// Override BoldThemesFrameworkTemplate class
