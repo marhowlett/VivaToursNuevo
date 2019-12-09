@@ -24,11 +24,11 @@ SÁBADOS: 09:00 A 13:30</span></div>
 <p><i class="icon"><img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/02/telefono.png" alt="reloj"> </i></p>
 <div class="info"><span class="datos">(+10 lineas) 313 56 03</span></div>
 </div>
-<div class="grid datos">
+<!--<div class="grid datos">
 <p><i class="icon"><img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/07/mapa-svg.png" alt="reloj"> </i></p>
 <div class="info"><span class="datos">Xochicalco #201 Col. Reforma, C.P. 62260<br>
 Cuernavaca, Mor., México</span></div>
-</div>
+</div>-->
 <div class="grid datos">
 <p><i class="icon"><img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/07/mail-1.png" alt="reloj"> </i></p>
 <div class="info"><a href="mailto:agencias@viajesvivatours.com?Subject=VivaTours."><span class="datos">agencias@viajesvivatours.com</span></a></div>
