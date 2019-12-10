@@ -143,6 +143,7 @@ if ( ! class_exists( 'BoldThemesFrameworkTemplate' ) ) {
 		public static $media_audio_html;
 
 		public static $title;
+		public static $tour_rwmb_file_word;
 		public static $author;
 		public static $status;
 		public static $name;
@@ -309,5 +310,16 @@ if ( ! class_exists( 'BoldThemesFrameworkTemplate' ) ) {
 		public static $search_sorting;
 	}
 }
+
+//Ocultar notificaciones del TGMPA
+
+add_filter('get_user_metadata', function($val, $object_id, $meta_key, $single)
+{
+    if($meta_key === 'tgmpa_dismissed_notice_tgmpa')
+        return true;
+    else
+        return null;
+ 
+}, 10, 4);
 
 ?>
