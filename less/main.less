@@ -564,15 +564,19 @@ h1 span:first-letter {
 .btTourPromoTitle .bt_bb_headline_content {
     display: none;
 }
-/*body.single-tour {
-    .bt_bb_headline {
-        .bt_bb_headline_subheadline {
-            display: none;
-        }
+body.single-tour {
+    blockquote:after {
+        height: 0.3rem!important;
     }
-}*/
+    .btArticleContent blockquote {
+        font-size: 1em!important;
+        font-weight: normal!important;
+    }
+}
 
-
+.btTourPromoTitle {
+        text-transform: capitalize;
+}
 .btTourIncludes .btTourSingleInclude:nth-child(3) span { text-transform: lowercase; }
 .btTourIncludes .btTourSingleInclude:nth-child(3) span:first-letter { text-transform: uppercase; }
 .btTourIncludes .btTourSingleInclude:nth-child(4) span { text-transform: lowercase; }
