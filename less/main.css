@@ -243,6 +243,12 @@ body.page-id-3924 #valores {
   background: linear-gradient(135deg, #f5f5f5 100%, #ffffff 0%) !important;
 }
 /**CONTACTO**/
+body.page-id-6999 blockquote:after {
+  height: 0.3rem!important;
+}
+body.page-id-6999 blockquote {
+  padding: 10px;
+}
 body.page-id-6999 .avion {
   position: relative;
   left: 202px;
@@ -291,12 +297,17 @@ body.page-id-6999 h3 {
   letter-spacing: normal;
   font-weight: normal!important;
   color: #e50075;
+  font-size: 40px!important;
+  position: relative;
+  top: 19px;
 }
+body.page-id-6999 h4 a,
 body.page-id-6999 h4 {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
   font-weight: bold;
   color: #fab000!important;
+  font-size: 30px!important;
 }
 .notas-importantes strong {
   font-weight: normal;
@@ -473,6 +484,10 @@ body.single-tour blockquote:after {
 body.single-tour .btArticleContent blockquote {
   font-size: 1em!important;
   font-weight: normal!important;
+}
+blockquote strong {
+  font-weight: 700!important;
+  letter-spacing: normal;
 }
 .btTourPromoTitle {
   text-transform: capitalize;
@@ -1244,7 +1259,7 @@ input:not([type='checkbox']):not([type='radio']):not([type='submit']) {
 }
 aside.btSidebar .btSearch {
   position: relative;
-  left: 7px;
+  left: 8px;
 }
 aside.btSidebar .feup-pure-form-aligned .feup-pure-control-group {
   float: inherit!important;
