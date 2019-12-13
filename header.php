@@ -70,9 +70,9 @@ $fecha = date('d-m-Y');
     
     
     echo ($fecha);
-    ?></span> <span class="cambio"> <img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/09/dollar.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5726" /> 1  USD = <?php echo do_shortcode('[sc name="Costo del dollar"]');
-    ?> moneda nacional</span> <span class="cambio"> <img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/09/euro.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" />1 Euro = <?php echo do_shortcode('[sc name="Costo del euro"]');
-    ?> moneda nacional</span> <?php echo do_shortcode('[headerviva]'); ?> <a class="buscar" href="https://previo.viajesvivatours.com/tours/?bt_tour_search_list_count"><img src="https://previo.viajesvivatours.com/wp-content/uploads/2019/10/search.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" /></a>
+    ?></span> <span class="cambio"> <img src="https://viajesvivatours.com/wp-content/uploads/2019/09/dollar.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5726" /> 1  USD = <?php echo do_shortcode('[sc name="Costo del dollar"]');
+    ?> moneda nacional</span> <span class="cambio"> <img src="https://viajesvivatours.com/wp-content/uploads/2019/09/euro.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" />1 Euro = <?php echo do_shortcode('[sc name="Costo del euro"]');
+    ?> moneda nacional</span> <?php echo do_shortcode('[headerviva]'); ?> <a class="buscar" href="https://viajesvivatours.com/tours/?bt_tour_search_list_count"><img src="https://viajesvivatours.com/wp-content/uploads/2019/10/search.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" /></a>
 </div>
                 <div class="avisoheader">
                     <p>Nos encontramos actualizando todos nuestros programas, por lo que te agradeceremos

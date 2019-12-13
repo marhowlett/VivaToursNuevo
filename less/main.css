@@ -164,6 +164,10 @@ body.home .avion {
   top: 129px;
   margin-top: -90px;
 }
+#contactoviva label,
+.page-id-4178 label {
+  color: white!important;
+}
 /**ETRANET**/
 body.page-id-5288 #contactoviva .feup-pure-button {
   width: 35%!important;
