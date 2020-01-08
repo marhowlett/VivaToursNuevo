@@ -493,6 +493,9 @@ blockquote strong {
   font-weight: 700!important;
   letter-spacing: normal;
 }
+.hoteles tr:first-child {
+  font-weight: bold;
+}
 .btTourPromoTitle {
   text-transform: capitalize;
 }

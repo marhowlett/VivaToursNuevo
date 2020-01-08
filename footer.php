@@ -22,7 +22,7 @@ SÁBADOS: 09:00 A 13:30</span></div>
 </div>
 <div class="grid datos">
 <p><i class="icon"><img src="https://viajesvivatours.com/wp-content/uploads/2019/02/telefono.png" alt="reloj"> </i></p>
-<div class="info"><span class="datos">(+10 lineas) 313 56 03</span></div>
+<div class="info"><span class="datos">(+10 lineas) (777) 313 56 03</span></div>
 </div>
 <!--<div class="grid datos">
 <p><i class="icon"><img src="https://viajesvivatours.com/wp-content/uploads/2019/07/mapa-svg.png" alt="reloj"> </i></p>
