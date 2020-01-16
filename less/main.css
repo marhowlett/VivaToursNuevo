@@ -1268,6 +1268,9 @@ aside.btSidebar .btSearch {
   position: relative;
   left: 8px;
 }
+body.page-id-5288 .btSearchField.btFieldDestination {
+  display: none;
+}
 aside.btSidebar .feup-pure-form-aligned .feup-pure-control-group {
   float: inherit!important;
   position: relative;
