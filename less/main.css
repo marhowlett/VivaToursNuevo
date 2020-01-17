@@ -57,6 +57,12 @@ blockquote:before {
   display: none!important;
 }
 /**INICIO SECCIÓN DIRECTORIO / TEMPORAL*/
+.lap {
+  display: inherit!important;
+}
+.cel {
+  display: none!important;
+}
 body.home {
   /***TEMPORAL DIRECTORIO**/
 }
@@ -130,6 +136,10 @@ body.home .amarillo .bt_bb_headline_subheadline {
 body.home .acerca_viva {
   margin-top: 80px;
   margin-bottom: -80px;
+}
+body.home .acerca_viva .vi_alineamiento {
+  position: relative;
+  top: -8px;
 }
 body.home .avion2 {
   position: relative;
@@ -1627,4 +1637,113 @@ body.page-id-4121 form#ewd-feup-register-form {
 }
 .btSidebarLeft.btWithSidebar .btContentHolder .btSidebar {
   padding-right: 0 !important;
+}
+@media screen and (max-width: 750px) {
+  .lap {
+    display: none!important;
+  }
+  .cel {
+    display: inherit!important;
+  }
+  #contactoviva #contacto {
+    position: relative;
+    left: -25px;
+  }
+  #contactoviva .feup-pure-button {
+    width: 100%!important;
+  }
+  #contactoviva .registrar {
+    width: 100%!important;
+    position: relative;
+    top: -42px;
+    left: -21px;
+    float: left;
+    text-align: center;
+  }
+  #contactoviva .col2 form,
+  #contactoviva .col2 h3,
+  #contactoviva .col2 p {
+    width: 100%;
+  }
+  nav {
+    position: relative;
+    left: 174px;
+  }
+  p.olvidar,
+  p.poli,
+  p.poli2 {
+    text-align: center!important;
+  }
+  p.olvidar a,
+  p.poli a,
+  p.poli2 a {
+    color: black!important;
+    top: inherit;
+    left: inherit;
+  }
+  body.home .fotoacerca {
+    margin-bottom: -100px !important;
+    margin-top: -53px !important;
+  }
+  body.home .acerca_viva {
+    padding: 65px 0px!important;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  body.home .acerca_viva h2 {
+    margin-top: 12px;
+  }
+  body.home .acerca_viva h2 b {
+    position: relative;
+    top: -13px !important;
+  }
+  body.home .acerca_viva h2 span {
+    position: relative;
+    top: 16px!important;
+  }
+  body.home .acerca_viva .bt_bb_port {
+    position: relative;
+    top: -40px !important;
+  }
+  body.home .avion {
+    position: relative;
+    left: 122px;
+    top: 116px;
+    margin-top: -90px;
+    max-width: 30%;
+  }
+  body.home .avion2 {
+    position: relative;
+    top: 40px;
+    left: -108px;
+  }
+  body.home .rosa2 {
+    position: relative;
+    left: 0px;
+  }
+  body.home .avion3 {
+    position: relative;
+    width: 30%;
+    left: -90px;
+    top: 105px;
+    margin-top: -117px;
+  }
+  /* body.home .acerca_viva_movil {
+            padding: 65px 0px!important;
+        margin-top: 0px!important;
+    margin-bottom: 0px!important;
+        
+        
+        
+        h2 b {
+   
+    position: relative;
+    top: -13px!important;
+}
+   h2 span {
+    
+    position: relative;
+    top: 42px!important;
+}
+    }*/
 }
