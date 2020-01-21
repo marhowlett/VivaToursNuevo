@@ -178,7 +178,7 @@ body.home .avion {
 .page-id-4178 label {
   color: white!important;
 }
-/**ETRANET**/
+/**ETERNET**/
 body.page-id-5288 #contactoviva .feup-pure-button {
   width: 35%!important;
 }
@@ -458,6 +458,8 @@ body.page-id-4036 .rosa strong {
 body.page-id-4036 .rosa b {
   position: relative;
   font-size: 50px;
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
 }
 body.page-id-4036 .rosa .bt_bb_headline_subheadline {
   color: #313131;
@@ -564,6 +566,7 @@ blockquote strong {
   font-weight: bold;
   font-family: 'Bebas Neue';
 }
+/*ETERNET*/
 .page-id-5288 h2 {
   font-family: 'Bebas Neue';
 }
@@ -1286,6 +1289,9 @@ aside.btSidebar .feup-pure-form-aligned .feup-pure-control-group {
   position: relative;
   top: 32px;
 }
+aside.btSidebar .btSearchField.btFieldDestination.btFieldDestinationWidget {
+  display: none;
+}
 #bt_tour_search_price_from,
 .btFieldPriceTo {
   display: none;
@@ -1615,6 +1621,15 @@ body.page-id-4121 form#ewd-feup-register-form {
 .bt_bb_size_large.bt_bb_headline h6 {
   font-size: 2.5em;
 }
+/***RESERVAS**/
+.page-id-6054 h2 span {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+}
+.page-id-6054 h2 strong {
+  font-family: 'Simple Boy';
+  letter-spacing: normal;
+}
 .btArticleContent blockquote {
   padding: -webkit-calc(2.75em) 2.4em 2em;
   padding: -moz-calc(2.75em) 2.4em 2em;
@@ -1728,6 +1743,70 @@ body.page-id-4121 form#ewd-feup-register-form {
     top: 105px;
     margin-top: -117px;
   }
+  body.page-id-4036 .avion {
+    position: relative;
+    left: 104px;
+    top: 112px;
+    margin-top: -90px;
+  }
+  .page-id-5288 .bon1 form#tour_search_form {
+    position: relative;
+    left: -179px;
+    margin-top: -72px;
+  }
+  body.page-id-5288 #contactoviva .feup-pure-button {
+    width: 100%!important;
+  }
+  body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group label {
+    width: 100%!important;
+  }
+  body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group {
+    float: left;
+    width: 100%;
+  }
+  body.page-id-4178 #ewd-feup-login {
+    position: relative;
+    left: 0px;
+  }
+  body.page-id-4178 .feup-pure-form-aligned .feup-pure-control-group {
+    float: left;
+    width: 100%;
+  }
+  body.page-id-4178 .feup-pure-button {
+    width: 100%!important;
+    left: 0px;
+  }
+  .registrar2 {
+    margin-left: 0px;
+    background-color: #e50075;
+    padding: 19px 106px;
+    margin-top: 20px;
+    color: white!important;
+    position: relative;
+    /* width: 100%; */
+    top: 27px;
+    left: 0px;
+    font-size: 27px!important;
+    font-family: 'Bebas Neue';
+  }
+  .pasajero {
+    margin-left: 0px;
+    background-color: #00a4af;
+    padding: 19px 91px;
+    margin-top: 20px;
+    color: white!important;
+    position: relative;
+    top: 70px;
+    font-size: 27px!important;
+    left: 0px;
+    font-family: 'Bebas Neue';
+  }
+  aside.btSidebar {
+    display: none;
+  }
+  .bt-video-container {
+    margin-top: 10px;
+  }
   /* body.home .acerca_viva_movil {
             padding: 65px 0px!important;
         margin-top: 0px!important;
@@ -1746,4 +1825,39 @@ body.page-id-4121 form#ewd-feup-register-form {
     top: 42px!important;
 }
     }*/
+  body.page-id-7034 .trans {
+    position: relative;
+    top: -5px;
+    left: 69px;
+  }
+  body.page-id-7034 .avion1 {
+    position: relative;
+    top: -35px;
+  }
+  body.page-id-7034 .azul2 {
+    position: relative;
+    top: 15px;
+    margin-bottom: 37px;
+  }
+  body.page-id-7034 .ama2 {
+    position: relative;
+    top: -27px;
+  }
+  .page-id-5803 .azul strong {
+    font-size: 50px;
+    color: #e50075!important;
+    position: relative;
+    left: 0px;
+  }
+  .page-id-5803 .avion {
+    position: relative;
+    left: 57px;
+    top: 137px;
+    margin-top: -90px;
+  }
+  body.page-id-6999 .avion {
+    position: relative;
+    left: 56px;
+    top: 110px;
+  }
 }

@@ -89,6 +89,70 @@
     top: 105px;
     margin-top: -117px;
   }
+  body.page-id-4036 .avion {
+    position: relative;
+    left: 104px;
+    top: 112px;
+    margin-top: -90px;
+  }
+  .page-id-5288 .bon1 form#tour_search_form {
+    position: relative;
+    left: -179px;
+    margin-top: -72px;
+  }
+  body.page-id-5288 #contactoviva .feup-pure-button {
+    width: 100%!important;
+  }
+  body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group label {
+    width: 100%!important;
+  }
+  body.page-id-4121 .feup-pure-form-aligned .feup-pure-control-group {
+    float: left;
+    width: 100%;
+  }
+  body.page-id-4178 #ewd-feup-login {
+    position: relative;
+    left: 0px;
+  }
+  body.page-id-4178 .feup-pure-form-aligned .feup-pure-control-group {
+    float: left;
+    width: 100%;
+  }
+  body.page-id-4178 .feup-pure-button {
+    width: 100%!important;
+    left: 0px;
+  }
+  .registrar2 {
+    margin-left: 0px;
+    background-color: #e50075;
+    padding: 19px 106px;
+    margin-top: 20px;
+    color: white!important;
+    position: relative;
+    /* width: 100%; */
+    top: 27px;
+    left: 0px;
+    font-size: 27px!important;
+    font-family: 'Bebas Neue';
+  }
+  .pasajero {
+    margin-left: 0px;
+    background-color: #00a4af;
+    padding: 19px 91px;
+    margin-top: 20px;
+    color: white!important;
+    position: relative;
+    top: 70px;
+    font-size: 27px!important;
+    left: 0px;
+    font-family: 'Bebas Neue';
+  }
+  aside.btSidebar {
+    display: none;
+  }
+  .bt-video-container {
+    margin-top: 10px;
+  }
   /* body.home .acerca_viva_movil {
             padding: 65px 0px!important;
         margin-top: 0px!important;
@@ -107,4 +171,39 @@
     top: 42px!important;
 }
     }*/
+  body.page-id-7034 .trans {
+    position: relative;
+    top: -5px;
+    left: 69px;
+  }
+  body.page-id-7034 .avion1 {
+    position: relative;
+    top: -35px;
+  }
+  body.page-id-7034 .azul2 {
+    position: relative;
+    top: 15px;
+    margin-bottom: 37px;
+  }
+  body.page-id-7034 .ama2 {
+    position: relative;
+    top: -27px;
+  }
+  .page-id-5803 .azul strong {
+    font-size: 50px;
+    color: #e50075!important;
+    position: relative;
+    left: 0px;
+  }
+  .page-id-5803 .avion {
+    position: relative;
+    left: 57px;
+    top: 137px;
+    margin-top: -90px;
+  }
+  body.page-id-6999 .avion {
+    position: relative;
+    left: 56px;
+    top: 110px;
+  }
 }
