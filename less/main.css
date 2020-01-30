@@ -1660,6 +1660,79 @@ body.page-id-4121 form#ewd-feup-register-form {
   .cel {
     display: inherit!important;
   }
+  /**MENU MOVIL*/
+  h2.men {
+    color: #e50075!important;
+    font-size: 35px;
+  }
+  .celular .menu_bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #E6344A;
+  }
+  .celular .menu_bar .bt-menu {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .celular .menu_bar span {
+    float: right;
+    font-size: 40px;
+  }
+  .celular nav {
+    left: 0px!important;
+    width: 80%;
+    position: fixed;
+    right: 100%;
+    margin: 0;
+    overflow: scroll;
+  }
+  .celular nav ul li {
+    display: block;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  }
+  .celular nav ul li a {
+    display: block;
+  }
+  .celular nav ul li:hover .children {
+    display: none;
+  }
+  .celular nav ul li .children {
+    width: 100%;
+    position: relative;
+  }
+  .celular nav ul li .children li a {
+    margin-left: 20px;
+  }
+  .celular nav ul li .caret {
+    float: right;
+  }
+  ul#menu-vivatours-1 {
+    margin-bottom: -304px;
+  }
+  nav#ml-menu menuPort {
+    margin-top: 38px!important;
+  }
+  nav.menu__breadcrumbs {
+    left: 0px;
+    top: -34px;
+    color: #00a4af!important;
+  }
+  .menu__link[data-submenu]::after {
+    content: '\f107' !important;
+    font: normal 16px/1 FontAwesome !important;
+    color: #00a4af!important;
+  }
+  .btMenuVertical .mainHeader nav ul li a {
+    /* font-family: 'Bebas Neue' !important; */
+    color: #00a4af!important;
+  }
   #contactoviva #contacto {
     position: relative;
     left: -25px;

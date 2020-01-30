@@ -93,12 +93,28 @@ corrobores con nosotros la información de tu interés.</p>
 							echo '<div class="btBelowLogoArea btClear"><div class="port">';
 						}
 					?>
-					<div class="menuPort">
+					<div class="menuPort lap">
 						<?php echo boldthemes_top_bar_html( 'menu' ); ?>
 						<nav>
 							<?php boldthemes_nav_menu(); ?>
 						</nav>
 					</div><!-- .menuPort -->
+					<div class="menuPort movil cel ">
+                    <h2 class="men">Menú General</h2>
+                        <nav>
+							<?php boldthemes_nav_menu(); ?>
+						</nav>
+                    <div class=" celular">
+                    <?php echo do_shortcode('[menumovil]');?>
+                   
+                  
+            <!--  <div class="menu_bar">
+			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
+		</div>-->
+ 
+		
+                   </div>
+					</div>
 				</div><!-- /port -->
 			</div><!-- /menuHolder / btBelowLogoArea -->
 		</div><!-- / inner header for scrolling -->
