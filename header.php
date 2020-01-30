@@ -60,7 +60,7 @@ echo boldthemes_preloader_html(); ?>
 						<div class="btHorizontalMenuTrigger">&nbsp;<?php echo boldthemes_get_icon_html( array( "icon" => "fa_f0c9", "url" => "#" ) ); ?></div>
 					<?php } ?>
 					
-					
+					<div class="lap">
 				<div class="headerviva">
 <span class="cambio">Tipo de cambio a <?php 
     date_default_timezone_set('America/Mexico_City');
@@ -77,6 +77,8 @@ $fecha = date('d-m-Y');
                 <div class="avisoheader">
                     <p>Nos encontramos actualizando todos nuestros programas, por lo que te agradeceremos
 corrobores con nosotros la información de tu interés.</p>
+                </div>
+                
                 </div>
 					<div class="logo">
 					
@@ -100,11 +102,24 @@ corrobores con nosotros la información de tu interés.</p>
 						</nav>
 					</div><!-- .menuPort -->
 					<div class="menuPort movil cel ">
-                    <h2 class="men">Menú General</h2>
-                        <nav>
-							<?php boldthemes_nav_menu(); ?>
-						</nav>
+                   <div class="headerviva">
+<span class="cambio">Tipo de cambio a <?php 
+    date_default_timezone_set('America/Mexico_City');
+    //Dia-Mes-Año Hora:Minutos:Segundos
+$fecha = date('d-m-Y');
+    
+    
+    
+    echo ($fecha);
+    ?></span> <span class="cambio"> <img src="https://viajesvivatours.com/wp-content/uploads/2019/09/dollar.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5726" /> 1  USD = <?php echo do_shortcode('[sc name="Costo del dollar"]');
+    ?> moneda nacional</span> <span class="cambio"> <img src="https://viajesvivatours.com/wp-content/uploads/2019/09/euro.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" />1 Euro = <?php echo do_shortcode('[sc name="Costo del euro"]');
+    ?> moneda nacional</span> <?php echo do_shortcode('[headerviva]'); ?> <a class="buscar" href="https://viajesvivatours.com/tours/?bt_tour_search_list_count"><img src="https://viajesvivatours.com/wp-content/uploads/2019/10/search.png" alt="" width="23" height="23" class="alignnone size-full wp-image-5725" /></a>
+    
+   
+
+</div>
                     <div class=" celular">
+                     <?php echo do_shortcode('[login-logout-toggle login_redirect_page="/panel" logout_redirect_page="/"]'); ?>
                     <?php echo do_shortcode('[menumovil]');?>
                    
                   

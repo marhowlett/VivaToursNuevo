@@ -10,7 +10,7 @@
 
 <?php // echo do_shortcode('[bt_bb_tour_search_form label_keyword="Buscar" label_destination="" label_departure_date="" label_price_from="" label_price_to="" label_search_button="Buscar" show_keyword="show_keyword" show_departure_date="" show_prices_filters="" show_categories="" responsive="hidden_sm hidden_md hidden_lg" publish_datetime="" expiry_datetime="" el_id="" el_class="" el_style=""][/bt_bb_tour_search_form]');?>
 -->
-<nav id="ml-menu" class="menu"><button class="action action--close" aria-label="Close Menu"></button>
+<nav>
 <div class="menu__wrap">
 <ul class="menu__level" tabindex="-1" role="menu" data-menu="main" aria-label="Menú principal">
  	<li class="menu__item" role="menuitem"><a class="menu__link" href="#" data-submenu="submenu-1" aria-owns="submenu-1">Nuestra programación</a></li>
@@ -96,4 +96,41 @@
                   
                    </div>
 
+
+
+
+<nav>
+							<ul><li><a href="https://viajesvivatours.com/">Inicio</a></li>
+<li><a href="https://viajesvivatours.com/acerca-de-vivatours/">Acerca de Vivatours</a></li>
+<li><a href="https://viajesvivatours.com/tips-de-viajes/">Tips de Viajes</a></li>
+<li><div class="subToggler"></div><a href="#">Nuestra Programación</a>
+<ul class="sub-menu">
+	<li id="menu-item-4016" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4016"><div class="subToggler"></div><a href="https://viajesvivatours.com/programacion-regular/">Programación Regular</a>
+	<ul class="sub-menu">
+		<li ><a href="https://viajesvivatours.com/mexico-2020/">México 2020</a></li>
+		<li ><a href="https://viajesvivatours.com/europa-y-medio-oriente-2019-2020/">Europa Y Medio Oriente 2019-2020</a></li>
+		<li ><a href="https://viajesvivatours.com/lejano-oriente-y-asia-central-2019-2020/">Lejano Oriente Y Asia Central 2019-2020</a></li>
+		<li ><a href="https://viajesvivatours.com/turismo-religioso-2019-solo-grupos/">Turismo Religioso 2019 – Sólo Grupos</a></li>
+	</ul>
+</li>
+	<li id="menu-item-5866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-5866"><div class="subToggler"></div><a href="https://viajesvivatours.com/salidas-especiales/">Salidas Especiales</a>
+	<ul class="sub-menu">
+		<li id="menu-item-5618" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5618"><a href="https://viajesvivatours.com/semana-santa-2020-europa/">Semana Santa Europa 2020</a></li>
+		<li id="menu-item-8295" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8295"><a href="https://viajesvivatours.com/en-familia-2020/">En Familia 2020</a></li>
+		<li id="menu-item-6118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6118"><a href="https://viajesvivatours.com/quinceaneras-por-europa-2020/">Quinceañeras Por Europa 2020</a></li>
+		<li id="menu-item-6119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6119"><a href="https://viajesvivatours.com/europa-verano-2020/">Europa Verano 2020</a></li>
+		<li id="menu-item-6745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6745"><a href="https://viajesvivatours.com/viva-europa-para-solters-2020/">Viva Europa para Solter@s 2020</a></li>
+		<li id="menu-item-6763" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6763"><a href="https://viajesvivatours.com/vive-tu-edad-dorada-2020/">Vive tu Edad Dorada 2020</a></li>
+		<li id="menu-item-6783" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6783"><a href="https://viajesvivatours.com/vive-tu-fe-2020/">Vive tu Fe 2020</a></li>
+		<li id="menu-item-6749" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6749"><a href="https://viajesvivatours.com/emiratos-arabes-unidos-turquia-egipto-israel-tailandia-y-combinados-2020/">Emiratos Arabes Unidos, Turquía, Egipto, Israel, Tailandia y Combinados 2020</a></li>
+		<li id="menu-item-6764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6764"><a href="https://viajesvivatours.com/india-nepal-dubai-y-combinados-2020/">India, Nepal, Dubai y Combinados 2020</a></li>
+		<li id="menu-item-7333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7333"><a href="https://viajesvivatours.com/especial-mexico-2020/">México 2020</a></li>
+	</ul>
+</li>
+	<li id="menu-item-7181" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7181"><a href="https://viajesvivatours.com/incoming/">Incoming</a></li>
+</ul>
+</li>
+<li id="menu-item-5912" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5912"><a href="https://viajesvivatours.com/beneficios/">Beneficios</a></li>
+<li id="menu-item-3883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3883"><a href="#contactoviva">Contáctenos</a></li>
+</ul>						</nav>
 <?php// echo do_shortcode('[registrar]');?>

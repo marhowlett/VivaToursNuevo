@@ -1166,12 +1166,18 @@ p.normal:first-letter {
 .btSearch {
   color: black;
 }
-@media (max-width: 1200px) {
+@media (max-width: 750px) {
   .headerviva {
-    display: none;
+    display: grid;
+  }
+  .headerviva a {
+    margin-top: 10px;
   }
   .btLogoArea .logo img {
     margin-top: auto;
+  }
+  .avisoheader {
+    display: none;
   }
 }
 .tours .btSingleTourHeadline a {
@@ -1654,6 +1660,10 @@ body.page-id-4121 form#ewd-feup-register-form {
   padding-right: 0 !important;
 }
 @media screen and (max-width: 750px) {
+  .admin-bar.btMenuVertical .btVerticalHeaderTop {
+    top: 0;
+    padding-bottom: 10px;
+  }
   .lap {
     display: none!important;
   }
@@ -1664,6 +1674,20 @@ body.page-id-4121 form#ewd-feup-register-form {
   h2.men {
     color: #e50075!important;
     font-size: 35px;
+  }
+  .logo {
+    display: block!important;
+    float: right!important;
+    margin: 8px!important;
+  }
+  .celular #ewd-feup-login {
+    display: none;
+  }
+  .celular .ewd-feup-submit {
+    margin-top: -47px;
+    background-color: #e50075!important;
+    color: white!important;
+    font-weight: bold!important;
   }
   .celular .menu_bar {
     display: block;
@@ -1686,12 +1710,17 @@ body.page-id-4121 form#ewd-feup-register-form {
     font-size: 40px;
   }
   .celular nav {
+    text-align: left;
     left: 0px!important;
     width: 80%;
     position: fixed;
     right: 100%;
     margin: 0;
     overflow: scroll;
+    margin-bottom: 20px;
+  }
+  .celular nav.panel {
+    margin-top: 50px!important;
   }
   .celular nav ul li {
     display: block;
@@ -1932,5 +1961,25 @@ body.page-id-4121 form#ewd-feup-register-form {
     position: relative;
     left: 56px;
     top: 110px;
+  }
+  .btFieldDate {
+    display: none;
+  }
+  .btCategories {
+    display: grid!important;
+  }
+  .bt_bb_icon_position_left,
+  .bt_bb_icon_position_right {
+    width: 100%!important;
+  }
+  .hoteles {
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  table {
+    width: 100%!important;
+  }
+  .btTourPlanPaging {
+    display: none;
   }
 }
