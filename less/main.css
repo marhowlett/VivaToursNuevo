@@ -185,6 +185,9 @@ body.page-id-5288 #contactoviva .feup-pure-button {
 body.page-id-4178 .bt_bb_section[class*="gradient"]:before {
   background-image: linear-gradient(to right, #e50075 0%, #f9b000 100%);
 }
+body.single-tour {
+  margin-top: -60px;
+}
 /**ACERCA**/
 strong.somos {
   font-family: 'Bebas Neue' !important;
@@ -611,10 +614,11 @@ blockquote strong {
   margin-bottom: 30px;
 }
 /***INCOMING**/
-.page-id-7162 .foto .bt_bb_image img {
-  width: 55%!important;
-  height: auto;
-  margin: auto;
+.page-id-7162 .sli_imagen {
+  height: 666px!important;
+}
+.page-id-7162 .sli_imagen .bt_bb_content_slider_item_content.content {
+  width: 460px!important;
 }
 .page-id-7263 h4 {
   color: #e50075!important;
@@ -1216,7 +1220,8 @@ p.normal:first-letter {
 .registrar2 {
   margin-left: 10px;
   background-color: #e50075;
-  padding: 19px 60px;
+  padding: 15px 50px;
+  border-radius: 10px;
   margin-top: 20px;
   color: white!important;
   position: relative;
@@ -1228,7 +1233,8 @@ p.normal:first-letter {
 .pasajero {
   margin-left: 10px;
   background-color: #00a4af;
-  padding: 19px 60px;
+  padding: 15px 50px;
+  border-radius: 10px;
   margin-top: 20px;
   color: white!important;
   position: relative;
@@ -1361,14 +1367,15 @@ body.page-id-4178 .ewd-feup-submit .ewd-feup-login-submit {
   left: 96px;
 }
 body.page-id-4178 .feup-pure-button {
+  border-radius: 10px!important;
   width: 35%!important;
-  left: 202px;
+  left: 190px;
   font-size: 27px!important;
   font-family: 'Bebas Neue' !important;
   position: relative;
-  top: -8px;
+  top: -3px;
   font-weight: normal!important;
-  height: 4.5rem!important;
+  height: 4.0rem!important;
 }
 #contactoviva .feup-pure-button {
   width: 45%!important;
@@ -1567,6 +1574,30 @@ body.page-id-5803 .btn {
   color: white!important;
   font-weight: bold;
 }
+body.page-id-4144 .conten1 {
+  position: relative;
+  left: 420px;
+}
+body.page-id-4144 label,
+body.page-id-4144 input.ewd-feup-submit,
+body.page-id-4144 #ewd-feup-password-result {
+  font-family: 'Bebas Neue' !important;
+  letter-spacing: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+body.page-id-4144 #ewd-feup-username-div,
+body.page-id-4144 #ewd-feup-password-strength-div {
+  width: 98%;
+}
+body.page-id-4144 .feup-pure-form-aligned .feup-pure-control-group label {
+  width: 22em!important;
+}
+body.page-id-4144 form#ewd-feup-register-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 body.page-id-4121 .feup-pure-control-group img {
   position: relative;
   left: -250px;
@@ -1671,9 +1702,29 @@ body.page-id-4121 form#ewd-feup-register-form {
     display: inherit!important;
   }
   /**MENU MOVIL*/
+  .btTourSingleItemStandard .btTourLocationMap .maparea > iframe,
+  .i4ewOd-UzWXSb {
+    border: 0;
+    height: 459px!important;
+  }
   h2.men {
     color: #e50075!important;
     font-size: 35px;
+  }
+  .headerviva {
+    text-align: left;
+    margin-left: -30px;
+    margin-right: -30px;
+  }
+  .headerviva strong {
+    display: none;
+  }
+  .headerviva a {
+    text-align: center;
+  }
+  .headerviva a,
+  .headerviva span {
+    margin-left: 0px;
   }
   .logo {
     display: block!important;
