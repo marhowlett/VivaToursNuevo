@@ -185,7 +185,7 @@ body.page-id-5288 #contactoviva .feup-pure-button {
 body.page-id-4178 .bt_bb_section[class*="gradient"]:before {
   background-image: linear-gradient(to right, #e50075 0%, #f9b000 100%);
 }
-body.single-tour {
+body.single-tour .btTourBook {
   margin-top: -60px;
 }
 /**ACERCA**/
