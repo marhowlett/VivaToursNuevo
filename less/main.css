@@ -57,6 +57,9 @@ blockquote:before {
   display: none!important;
 }
 /**INICIO SECCIÓN DIRECTORIO / TEMPORAL*/
+.btTourBookBottom {
+  display: none;
+}
 .lap {
   display: inherit!important;
 }
@@ -628,34 +631,41 @@ blockquote strong {
   text-transform: lowercase;
 }
 /**OPERADORES***/
-.page-id-5803 .bt_bb_headline_content {
+.page-id-5803 .bt_bb_headline_content,
+.page-id-9500 .bt_bb_headline_content {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
   font-weight: normal;
 }
-.page-id-5803 h2 {
+.page-id-5803 h2,
+.page-id-9500 h2 {
   font-family: 'Bebas Neue';
 }
-.page-id-5803 h2 span {
+.page-id-5803 h2 span,
+.page-id-9500 h2 span {
   font-family: 'Simple Boy';
   letter-spacing: normal;
   font-weight: normal;
 }
-.page-id-5803 h2 b {
+.page-id-5803 h2 b,
+.page-id-9500 h2 b {
   font-family: 'Bebas Neue' !important;
   letter-spacing: normal;
   font-size: 50px;
 }
-.page-id-5803 h2 strong {
+.page-id-5803 h2 strong,
+.page-id-9500 h2 strong {
   display: block;
 }
-.page-id-5803 .azul strong {
+.page-id-5803 .azul strong,
+.page-id-9500 .azul strong {
   font-size: 50px;
   color: #e50075!important;
   position: relative;
   left: 63px;
 }
-.page-id-5803 .avion {
+.page-id-5803 .avion,
+.page-id-9500 .avion {
   position: relative;
   left: 175px;
   top: 145px;

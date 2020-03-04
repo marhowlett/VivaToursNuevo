@@ -17,7 +17,7 @@ if ( BoldThemesFramework::$has_sidebar ) {
 <div class="bloque">
 <div class="grid datos">
 <p><i class="icon"><img src="https://viajesvivatours.com/wp-content/uploads/2019/02/reloj.png" alt="reloj"> </i></p>
-<div class="info"><span class="datos">LUNES A VIERNES: 08:30 A 19:30<br>
+<div class="info"><span class="datos">LUNES A VIERNES: 08:30 A 19:00<br>
 SÁBADOS: 09:00 A 13:30</span></div>
 </div>
 <div class="grid datos">

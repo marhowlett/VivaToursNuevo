@@ -97,7 +97,7 @@ if(empty($email)){
 					</ul>
 				</li>
                 
-				
+				<li><a href="https://viajesvivatours.com/promociones-especiales/"><span class="icon-suitcase"></span>Promociones Especiales</a></li>
 				<li class="submenu">
 					<a href="#"><span class="icon-rocket"></span>Información General<span class="caret icon-arrow-down6"></span></a>
 					<ul class="children">

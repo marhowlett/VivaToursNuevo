@@ -23,7 +23,7 @@ bt_get_tour_single_data( get_the_ID() );
 						<li id="btTourInformationTab" class="on"><span><?php echo esc_html__( 'Information', 'travelicious' );?></span></li>
                                                 <?php } ?>
                                                
-                                                 <li id="btTourAdditionalInfoTab"><span><?php echo esc_html__( 'Hoteles y Fechas Disponibles', 'travelicious' );?></span></li>
+                                                 <li id="btTourAdditionalInfoTab"><span><?php echo esc_html__( 'Hoteles, Fechas y Precios', 'travelicious' );?></span></li>
                                                
                                                 <?php if ( boldthemes_show_tour_plan_tab() ) { ?>
                                                     <li id="btTourPlanTab"><span><?php echo esc_html__( 'Tour Plan', 'travelicious' );?></span></li>
