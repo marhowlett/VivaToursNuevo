@@ -28,9 +28,9 @@ if(empty($email)){
 					<a href="https://viajesvivatours.com/programacion-regular/">Programación Regular<span class="icon-dot"></span></a>
 					<ul class="children">
 						<li ><a href="https://viajesvivatours.com/mexico-2020/">México 2020</a></li>
-		<li ><a href="https://viajesvivatours.com/europa-y-medio-oriente-2019-2020/">Europa Y Medio Oriente 2019-2020</a></li>
-		<li ><a href="https://viajesvivatours.com/lejano-oriente-y-asia-central-2019-2020/">Lejano Oriente Y Asia Central 2019-2020</a></li>
-		<li ><a href="https://viajesvivatours.com/turismo-religioso-2019-solo-grupos/">Turismo Religioso 2019 – Sólo Grupos</a></li>
+		<li ><a href="https://viajesvivatours.com/europa-y-medio-oriente-2020-2021/">Europa Y Medio Oriente 2020-2021</a></li>
+		<li ><a href="https://viajesvivatours.com/lejano-oriente-y-asia-central-2020-2021/">Lejano Oriente Y Asia Central 2020-2021</a></li>
+		<li ><a href="https://viajesvivatours.com/turismo-religioso-2020-solo-grupos/">Turismo Religioso 2020 – Sólo Grupos</a></li>
 					</ul>
 				</li>
                 
@@ -73,9 +73,9 @@ if(empty($email)){
 					<a href="https://viajesvivatours.com/panel/">Programación Regular<span class="icon-dot"></span></a>
 					<ul class="children">
 						<li ><a href="https://viajesvivatours.com/mexico-2020/">México 2020</a></li>
-		<li ><a href="https://viajesvivatours.com/europa-y-medio-oriente-2019-2020/">Europa Y Medio Oriente 2019-2020</a></li>
-		<li ><a href="https://viajesvivatours.com/lejano-oriente-y-asia-central-2019-2020/">Lejano Oriente Y Asia Central 2019-2020</a></li>
-		<li ><a href="https://viajesvivatours.com/turismo-religioso-2019-solo-grupos/">Turismo Religioso 2019 – Sólo Grupos</a></li>
+		<li ><a href="https://viajesvivatours.com/europa-y-medio-oriente-2020-2021/">Europa Y Medio Oriente 2020-2021</a></li>
+		<li ><a href="https://viajesvivatours.com/lejano-oriente-y-asia-central-2020-2021/">Lejano Oriente Y Asia Central 2020-2021</a></li>
+		<li ><a href="https://viajesvivatours.com/turismo-religioso-2020-solo-grupos/">Turismo Religioso 2020 – Sólo Grupos</a></li>
 					</ul>
 				</li>
                 
